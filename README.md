@@ -1,14 +1,24 @@
+<!--
+  SEO META — indexed by GitHub search & Google
+  Keywords: Data Scientist Python PyTorch Machine Learning MLOps BI Developer Power BI
+  Databricks Spark Deep Learning Computer Vision Time Series Geospatial Ecuador Remote
+  XGBoost LightGBM CatBoost Transfer Learning ResNet ETL Data Engineer SQL Pandas Polars
+-->
+
 <!-- HEADER -->
 <div align="center">
 
 <h1>Jordan Villón</h1>
+<h3>Data Scientist · ML Engineer · BI Developer</h3>
+<p><em>Python · PyTorch · Databricks · Power BI · SQL · Spark · Docker · R</em></p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=20&duration=3000&pause=1000&color=00D9FF&center=true&width=700&lines=Data+Scientist+%7C+ML+Engineer+%7C+BI+Developer;Transforming+Data+Into+Competitive+Advantage;Deep+Learning+%E2%80%A2+Time+Series+%E2%80%A2+Geospatial+Analytics;5%2B+Years+%7C+5+Industries+%7C+12%2B+Projects;Ecuador+%F0%9F%87%AA%F0%9F%87%A8+%7C+Open+to+Remote+Opportunities" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=18&duration=3000&pause=1000&color=00D9FF&center=true&width=720&lines=Senior+Data+Scientist+%7C+ML+Engineer+%7C+BI+Developer;Deep+Learning+%E2%80%A2+MLOps+%E2%80%A2+Geospatial+Analytics;Databricks+%E2%80%A2+PyTorch+%E2%80%A2+Power+BI+%E2%80%A2+Spark;5%2B+Years+%7C+5+Industries+%7C+12%2B+Projects+%7C+Open+to+Remote" alt="Typing SVG" />
 
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/%F0%9F%8C%90%20Live%20Portfolio-jordanvt18.github.io-00D9FF?style=for-the-badge)](https://jordanvt18.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jordan%20Vill%C3%B3n-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres)
+[![Credentials](https://img.shields.io/badge/Credentials-Verified-22C55E?style=for-the-badge&logo=checkmarx&logoColor=white)](https://credentials.databricks.com)
 [![Email](https://img.shields.io/badge/Email-jvto18%40proton.me-8B5CF6?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:jvto18@proton.me)
 [![Profile Views](https://komarev.com/ghpvc/?username=jordanvt18&color=00d9ff&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/jordanvt18)
 
@@ -18,16 +28,20 @@
 
 ## 🎯 About Me
 
-Specialized in **Machine Learning**, **Interactive Visualization**, and **Territorial Analytics** with **5+ years** applying data science across diverse industries. I transform complex datasets into actionable business intelligence that drives measurable ROI.
+**Senior Data Scientist & ML Engineer** with 5+ years building production-grade machine learning systems, BI platforms, and geospatial analytics solutions across 5 industries in Latin America. Certified in Databricks, DataCamp, and IBM specializations. Open to remote roles in Data Science, ML Engineering, or BI Development.
 
 ```python
 jordan = {
-    "role"       : ["Business Data Scientist", "ML Engineer", "BI Developer"],
-    "location"   : "Ecuador 🇪🇨 | Open to Remote",
-    "expertise"  : ["Deep Learning", "Time Series", "Geospatial Analytics", "MLOps"],
+    "title"      : "Senior Data Scientist | ML Engineer | BI Developer",
+    "location"   : "Ecuador 🇪🇨 | UTC-5 | Open to Remote & Relocation",
+    "languages"  : ["Python", "R", "SQL", "JavaScript", "LaTeX"],
+    "ml_stack"   : ["PyTorch", "TensorFlow", "Scikit-learn", "XGBoost", "LightGBM"],
+    "data_eng"   : ["Databricks", "Apache Spark", "Pandas", "Polars", "ETL/ELT Pipelines"],
+    "bi_tools"   : ["Power BI", "Tableau", "Plotly", "Matplotlib"],
+    "devops"     : ["Docker", "Git", "CI/CD", "GitHub Actions", "MLflow"],
     "industries" : ["Beverage & Spirits", "Fintech", "Food Distribution", "Real Estate", "Tech"],
-    "currently"  : ["Advanced ML in Agriculture", "Real-time Analytics", "Databricks Certification"],
-    "contact"    : "jvto18@proton.me"
+    "certs"      : ["Databricks Lakehouse", "DataCamp DA Associate", "IBM ML Specialization"],
+    "contact"    : "jvto18@proton.me | linkedin.com/in/jordanvillontorres"
 }
 ```
 
@@ -50,6 +64,7 @@ jordan = {
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logo=xgboost&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Polars](https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white)
 
@@ -58,11 +73,12 @@ jordan = {
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 
-**Infrastructure & Tools**
+**Data Engineering & MLOps**
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
@@ -88,8 +104,6 @@ jordan = {
 
 > 🌐 **Full interactive experience with filtering, animations & live demos → [jordanvt18.github.io](https://jordanvt18.github.io)**
 
-### 🎯 Flagship Projects
-
 <table>
 <tr>
 <td width="50%">
@@ -101,7 +115,7 @@ jordan = {
 
 **ResNet18 + Transfer Learning** for agricultural disease detection across 4 pathology classes. Docker containerized CPU/GPU.
 
-**`5s/image` · `+150% ROI` · `25% pesticide reduction`**
+`5s/image` · `+150% ROI` · `25% pesticide reduction`
 
 [![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/banana-disease-detection)
 
@@ -111,11 +125,11 @@ jordan = {
 ### 📊 Python Data Processing Benchmark
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![Polars](https://img.shields.io/badge/Polars-CD792C?style=flat-square)
-![Big Data](https://img.shields.io/badge/Big%20Data-00D9FF?style=flat-square)
+![Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
 
-Rigorous benchmarking of Python data libraries across **memory, speed, and optimization** with reproducible visual analytics.
+Rigorous benchmarking of Python data libraries across **memory, speed, and optimization**.
 
-**`Comparative visualizations` · `Best-practice guides`**
+`Pandas vs Polars vs Spark` · `Reproducible analytics`
 
 [![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/python-data-processing-benchmark)
 
@@ -127,11 +141,10 @@ Rigorous benchmarking of Python data libraries across **memory, speed, and optim
 ### 🔐 Centinela Live
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Security](https://img.shields.io/badge/Security-8B5CF6?style=flat-square)
 
-**Security monitoring & real-time alerting** system. Scalable microservices with event-driven pipeline and live dashboard.
+**Real-time security monitoring** system. Microservices architecture with event-driven alerting pipeline.
 
-**`Real-time alerts` · `Microservices` · `Full Stack`**
+`Real-time alerts` · `Microservices` · `Full Stack`
 
 [![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/Centinela_live)
 
@@ -140,36 +153,13 @@ Rigorous benchmarking of Python data libraries across **memory, speed, and optim
 
 ### 📊 Ecuador Education Dashboard
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Open Data](https://img.shields.io/badge/Open%20Data-00D9FF?style=flat-square)
 
-Interactive Power BI analyzing **official degree registrations** across Ecuador — province, institution, gender & temporal filters.
+Public Power BI dashboard analyzing **degree registrations** across all Ecuador provinces.
+
+`Territorial Analysis` · `Open Data` · `BI`
 
 [![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/TESISGRADO)
-[![Live Dashboard](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Dashboard-F2C811?style=flat-square)](https://app.powerbi.com/view?r=eyJrIjoiNTQxYTk2ZTktYWEzZS00OWI3LTg3YzAtZjJmZjBkZDc1YmJiIiwidCI6ImI3YWY4Y2FmLTgzZDgtNDY0NC04NWFlLTMxN2M1NDUyMjNjMSIsImMiOjR9)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 💳 Financial Security Analyzer
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Fintech](https://img.shields.io/badge/Fintech-8B5CF6?style=flat-square)
-
-Comparative platform evaluating **banking institutions & cooperatives** in Ecuador with risk assessment and visualization.
-
-[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/bancos-cooperativas-ecuador)
-
-</td>
-<td width="50%">
-
-### 🏠 SmartLife Analyzer
-![HTML](https://img.shields.io/badge/HTML%2FCSS%2FJS-E34F26?style=flat-square&logo=html5&logoColor=white)
-![Health](https://img.shields.io/badge/Health%20Analytics-00D9FF?style=flat-square)
-
-Health dashboard with **real-time analysis** and ML model retraining demo. Full-stack data visualization + predictive analytics.
-
-[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/smartlife-analyzer)
+[![Live](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Dashboard-F2C811?style=flat-square)](https://app.powerbi.com/view?r=eyJrIjoiNTQxYTk2ZTktYWEzZS00OWI3LTg3YzAtZjJmZjBkZDc1YmJiIiwidCI6ImI3YWY4Y2FmLTgzZDgtNDY0NC04NWFlLTMxN2M1NDUyMjNjMSIsImMiOjR9)
 
 </td>
 </tr>
@@ -185,42 +175,48 @@ Health dashboard with **real-time analysis** and ML model retraining demo. Full-
 
 ## 💡 Skills & Expertise
 
-| Domain | Expertise |
+| Domain | Technologies |
 |:---|:---|
-| **Machine Learning** | Supervised/Unsupervised, Ensemble Methods (XGBoost, LightGBM, CatBoost), Neural Networks |
+| **Machine Learning** | Supervised/Unsupervised, XGBoost, LightGBM, CatBoost, Neural Networks, NLP |
 | **Deep Learning** | CNN/RNN, Transfer Learning (ResNet18), PyTorch, TensorFlow, Computer Vision |
-| **Data Engineering** | Pipeline Design, ETL/ELT, Big Data (Spark), Data Warehousing, Databricks |
-| **Business Intelligence** | Power BI, Tableau, Data Storytelling, Interactive Visualization |
-| **Statistics & Econometrics** | Hypothesis Testing, Regression, Multivariate Analysis, Causal Inference |
+| **Data Engineering** | ETL/ELT Pipelines, Apache Spark, Databricks Lakehouse, Delta Lake, MLflow |
+| **Business Intelligence** | Power BI DAX, Tableau, Data Storytelling, Interactive Dashboards |
+| **Statistics & Econometrics** | Hypothesis Testing, Regression, Time Series (ARIMA/SARIMA), Causal Inference |
 | **Geospatial Analysis** | Territory Mapping, QGIS, Choropleth Visualization, Spatial Statistics |
-| **DevOps & MLOps** | Docker, CI/CD, Git Workflows, Model Deployment, GitHub Actions |
+| **DevOps & MLOps** | Docker, CI/CD, GitHub Actions, Model Deployment, Version Control |
 
 ---
 
-## 🎓 Certifications & Credentials
+## 🎓 Verified Certifications
 
 ### 🏆 Platform Certifications
 
-| Certification | Issuer | Year |
-|:---|:---|:---:|
-| 🧱 Databricks Lakehouse Fundamentals | Databricks | 2025 |
-| 🧱 Databricks Generative AI Fundamentals | Databricks | 2025 |
-| 🧱 Data Engineer Associate *(in progress)* | Databricks | 2026 |
-| 📊 Data Analyst Associate | DataCamp | 2024 |
-| 🐍 Data Scientist Professional | DataCamp | 2024 |
-| 🤖 AI Fundamentals | DataCamp | 2024 |
-| 🌐 Aspire Leader Program | Aspire | 2024 |
+<div align="center">
+
+[![Databricks](https://img.shields.io/badge/Databricks-Lakehouse%20Fundamentals-FF3621?style=for-the-badge&logo=databricks&logoColor=white)](https://credentials.databricks.com)
+[![Databricks](https://img.shields.io/badge/Databricks-Generative%20AI%20Fundamentals-FF3621?style=for-the-badge&logo=databricks&logoColor=white)](https://credentials.databricks.com)
+
+[![DataCamp](https://img.shields.io/badge/DataCamp-Data%20Analyst%20Associate-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)](https://www.datacamp.com/certificate/DAA0013910322984)
+[![DataCamp](https://img.shields.io/badge/DataCamp-Data%20Scientist%20Professional-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)](https://www.datacamp.com/portfolio/jordanvt18)
+[![DataCamp](https://img.shields.io/badge/DataCamp-AI%20Fundamentals-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)](https://www.datacamp.com/portfolio/jordanvt18)
+
+[![Aspire](https://img.shields.io/badge/Aspire-Leader%20Program-FF6B6B?style=for-the-badge&logo=academia&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres)
+
+</div>
 
 ### 🏅 Specialization Certifications
 
-| Certification | Issuer | Year |
-|:---|:---|:---:|
-| 🤖 Machine Learning & TensorFlow Specialization | IBM | 2024 |
-| 📊 Applied Data Science Lab | WorldQuant University | 2024 |
-| 🐍 Python for Data Science | IBM | 2023 |
-| 💰 Financial Analysis & Modeling | CFI | 2025 |
-| 🐙 GitHub Career Essentials | GitHub | 2025 |
-| 🧠 Enterprise Design Thinking Practitioner | IBM | 2022 |
+<div align="center">
+
+[![IBM](https://img.shields.io/badge/IBM-Machine%20Learning%20%26%20TensorFlow-054ADA?style=for-the-badge&logo=ibm&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres)
+[![WorldQuant](https://img.shields.io/badge/WorldQuant-Applied%20Data%20Science%20Lab-1C3A72?style=for-the-badge&logo=academia&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres)
+[![CFI](https://img.shields.io/badge/CFI-Financial%20Analysis%20%26%20Modeling-2563EB?style=for-the-badge&logo=academia&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres)
+[![GitHub](https://img.shields.io/badge/GitHub-Career%20Essentials-161b22?style=for-the-badge&logo=github&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres)
+[![IBM](https://img.shields.io/badge/IBM-Enterprise%20Design%20Thinking-054ADA?style=for-the-badge&logo=ibm&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres)
+
+</div>
+
+> 📋 **All certifications verified on [LinkedIn](https://www.linkedin.com/in/jordanvillontorres) · Databricks badges at [credentials.databricks.com](https://credentials.databricks.com)**
 
 ---
 
@@ -228,35 +224,32 @@ Health dashboard with **real-time analysis** and ML model retraining demo. Full-
 
 <div align="center">
 
-| 📅 5+ Years | 💡 12+ Projects | 🏭 5 Industries | 📈 +70% NPS |
+| 📅 5+ Years | 💡 12+ Projects | 🏭 5 Industries | 📈 Proven ROI |
 |:---:|:---:|:---:|:---:|
-| Beverage & Spirits | Deep Learning | Fintech | ML-driven decisions |
-| Food Distribution | BI Dashboards | Real Estate | Supply chain optimization |
-| Technology | Geospatial Analytics | Healthcare | Anomaly detection systems |
+| AB-InBev (Data Scientist) | Deep Learning | Beverage & Spirits | +150% ROI (AgriAI) |
+| AB-InBev (BI Analyst) | BI Dashboards | Fintech | +70% NPS Optimization |
+| ESPOL (Data Analyst) | Geospatial Analytics | Food Distribution | 25% cost reduction |
 
 </div>
 
 ---
 
-## 🎯 Current Focus
+## 🎯 Currently
 
-- 🔬 Advanced ML Applications in Agriculture
-- 📊 Real-time Analytics & Stream Processing
-- 🏗️ MLOps & Production Model Governance
-- 📈 Econometric Modeling & Forecasting
-- 🧱 Databricks Data Engineer Associate Certification
+- 🔬 **Building**: Advanced ML for agricultural disease detection (Ecuador)
+- 📊 **Studying**: Databricks Data Engineer Associate certification
+- 🌎 **Open to**: Remote Data Scientist / ML Engineer / BI Developer roles
+- 💬 **Reach me**: [jvto18@proton.me](mailto:jvto18@proton.me) · [LinkedIn](https://www.linkedin.com/in/jordanvillontorres)
 
 ---
 
 ## 🤝 Let's Connect
 
-I'm actively seeking opportunities to collaborate on open-source data science projects, BI & analytics consulting, ML applications in agriculture, fintech, and real estate, and technical mentorship.
-
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Explore-FF6B6B?style=for-the-badge&logo=globe&logoColor=white)](https://jordanvt18.github.io)
-[![Email](https://img.shields.io/badge/Email-Reach%20Out-8B5CF6?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:jvto18@proton.me)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jordan%20Vill%C3%B3n%20Torres-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres)
+[![Portfolio](https://img.shields.io/badge/Portfolio-jordanvt18.github.io-FF6B6B?style=for-the-badge&logo=globe&logoColor=white)](https://jordanvt18.github.io)
+[![Email](https://img.shields.io/badge/Email-jvto18%40proton.me-8B5CF6?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:jvto18@proton.me)
 
 </div>
 
