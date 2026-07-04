@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jordan Villón Torres | Data Scientist & ML Engineer</title>
+  <meta name="description" content="Data Scientist & ML Engineer specializing in Machine Learning, BI Dashboards, and Territorial Analytics. 5+ years transforming data into competitive advantage." />
+
+  <!-- AOS Animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --cyan: #00d9ff;
+      --purple: #8b5cf6;
+      --pink: #ff6b9d;
+      --dark: #080c14;
+      --dark2: #0d1117;
+      --dark3: #161b22;
+      --dark4: #21262d;
+      --text: #c9d1d9;
+      --text-bright: #f0f6fc;
+      --glow-cyan: 0 0 20px rgba(0,217,255,0.5);
+      --glow-purple: 0 0 20px rgba(139,92,246,0.5);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Rajdhani', sans-serif;
+      background: var(--dark);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    /* ========== SCROLLBAR ========== */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--dark2); }
+    ::-webkit-scrollbar-thumb { background: var(--cyan); border-radius: 3px; }
+
+    /* ========== PARTICLES CANVAS ========== */
+    #particles-canvas {
+      position: fixed; top: 0; left: 0;
+      width: 100%; height: 100%;
+      pointer-events: none; z-index: 0;
+      opacity: 0.35;
+    }
+
+    /* ========== NAV ========== */
+    nav {
+      position: fixed; top: 0; width: 100%; z-index: 1000;
+      background: rgba(8,12,20,0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(0,217,255,0.15);
+      padding: 0.75rem 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-brand {
+      font-family: 'Orbitron', monospace;
+      font-size: 1.1rem;
+      color: var(--cyan);
+      text-shadow: var(--glow-cyan);
+      letter-spacing: 2px;
+    }
+    .nav-links { display: flex; gap: 1.5rem; list-style: none; }
+    .nav-links a {
+      color: var(--text); text-decoration: none;
+      font-size: 0.9rem; font-weight: 500; letter-spacing: 1px;
+      transition: color 0.3s;
+      position: relative;
+    }
+    .nav-links a::after {
+      content: ''; position: absolute; bottom: -4px; left: 0;
+      width: 0; height: 2px; background: var(--cyan);
+      transition: width 0.3s;
+    }
+    .nav-links a:hover { color: var(--cyan); }
+    .nav-links a:hover::after { width: 100%; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
+    .hamburger span { width: 25px; height: 2px; background: var(--cyan); transition: 0.3s; }
+
+    /* ========== HERO ========== */
+    #hero {
+      min-height: 100vh; position: relative; z-index: 1;
+      display: flex; flex-direction: column; justify-content: center; align-items: center;
+      text-align: center; padding: 2rem;
+      background: radial-gradient(ellipse at 50% 0%, rgba(0,217,255,0.07) 0%, transparent 70%),
+                  radial-gradient(ellipse at 80% 80%, rgba(139,92,246,0.07) 0%, transparent 60%);
+    }
+    .hero-tag {
+      font-family: 'Fira Code', monospace;
+      font-size: 0.85rem; color: var(--cyan);
+      border: 1px solid rgba(0,217,255,0.3);
+      padding: 0.3rem 1rem; border-radius: 20px;
+      margin-bottom: 1.5rem;
+      letter-spacing: 1px;
+    }
+    .hero-name {
+      font-family: 'Orbitron', monospace;
+      font-size: clamp(2rem, 6vw, 4rem);
+      font-weight: 900; color: var(--text-bright);
+      line-height: 1.1; margin-bottom: 0.5rem;
+      letter-spacing: 3px;
+    }
+    .hero-name span { color: var(--cyan); text-shadow: var(--glow-cyan); }
+    #typed-text {
+      font-size: clamp(1rem, 2.5vw, 1.4rem);
+      color: var(--purple); font-weight: 600;
+      min-height: 2rem; letter-spacing: 1px;
+    }
+    .cursor-blink {
+      display: inline-block; width: 3px; height: 1.2em;
+      background: var(--cyan); margin-left: 2px;
+      animation: blink 0.7s infinite;
+      vertical-align: middle;
+    }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+    .hero-desc {
+      max-width: 600px; margin: 1.5rem auto;
+      font-size: 1rem; line-height: 1.7; color: var(--text);
+    }
+    .hero-cta { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem; }
+    .btn {
+      padding: 0.75rem 2rem; border-radius: 6px;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.95rem; font-weight: 700; letter-spacing: 1px;
+      cursor: pointer; text-decoration: none;
+      transition: all 0.3s; border: none;
+      display: inline-flex; align-items: center; gap: 0.5rem;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--cyan), var(--purple));
+      color: #000; box-shadow: var(--glow-cyan);
+    }
+    .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 0 30px rgba(0,217,255,0.7); }
+    .btn-outline {
+      background: transparent;
+      border: 1px solid var(--cyan); color: var(--cyan);
+    }
+    .btn-outline:hover { background: rgba(0,217,255,0.1); transform: translateY(-3px); }
+    .hero-stats {
+      display: flex; gap: 3rem; margin-top: 3rem; flex-wrap: wrap; justify-content: center;
+    }
+    .stat-item { text-align: center; }
+    .stat-num {
+      font-family: 'Orbitron', monospace;
+      font-size: 2rem; font-weight: 900; color: var(--cyan);
+      text-shadow: var(--glow-cyan);
+    }
+    .stat-label { font-size: 0.8rem; color: var(--text); letter-spacing: 1px; margin-top: 0.25rem; }
+    .scroll-indicator {
+      position: absolute; bottom: 2rem;
+      display: flex; flex-direction: column; align-items: center; gap: 0.5rem;
+      color: var(--text); font-size: 0.75rem;
+      animation: bounce 2s infinite;
+    }
+    @keyframes bounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(8px)} }
+
+    /* ========== SECTIONS ========== */
+    section { position: relative; z-index: 1; padding: 5rem 2rem; }
+    .section-header { text-align: center; margin-bottom: 3rem; }
+    .section-tag {
+      font-family: 'Fira Code', monospace;
+      font-size: 0.8rem; color: var(--cyan);
+      letter-spacing: 3px; text-transform: uppercase; margin-bottom: 0.75rem;
+    }
+    .section-title {
+      font-family: 'Orbitron', monospace;
+      font-size: clamp(1.5rem, 4vw, 2.5rem);
+      font-weight: 700; color: var(--text-bright);
+      letter-spacing: 2px;
+    }
+    .section-title span { color: var(--cyan); }
+    .divider {
+      width: 80px; height: 3px;
+      background: linear-gradient(90deg, var(--cyan), var(--purple));
+      margin: 1rem auto; border-radius: 2px;
+    }
+
+    /* ========== ABOUT ========== */
+    #about { background: var(--dark2); }
+    .about-grid {
+      max-width: 1100px; margin: 0 auto;
+      display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;
+    }
+    .about-text h3 {
+      font-family: 'Orbitron', monospace;
+      font-size: 1.3rem; color: var(--cyan); margin-bottom: 1rem;
+    }
+    .about-text p { line-height: 1.8; margin-bottom: 1rem; font-size: 1rem; }
+    .about-text p strong { color: var(--cyan); }
+    .about-highlights { display: flex; flex-direction: column; gap: 0.75rem; margin-top: 1.5rem; }
+    .highlight-item {
+      display: flex; align-items: center; gap: 0.75rem;
+      background: var(--dark3); border-left: 3px solid var(--cyan);
+      padding: 0.6rem 1rem; border-radius: 0 6px 6px 0;
+    }
+    .highlight-item i { color: var(--cyan); width: 20px; text-align: center; }
+    .about-card {
+      background: var(--dark3);
+      border: 1px solid rgba(0,217,255,0.15);
+      border-radius: 12px; padding: 2rem;
+    }
+    .about-card h4 {
+      font-family: 'Orbitron', monospace;
+      font-size: 0.9rem; color: var(--purple); margin-bottom: 1rem; letter-spacing: 1px;
+    }
+    .impact-list { list-style: none; }
+    .impact-list li {
+      padding: 0.5rem 0; border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-size: 0.9rem; display: flex; align-items: flex-start; gap: 0.5rem;
+    }
+    .impact-list li::before { content: "▹"; color: var(--cyan); flex-shrink: 0; }
+
+    /* ========== TECH STACK ========== */
+    #tech-stack { background: var(--dark); }
+    .tech-grid {
+      max-width: 1000px; margin: 0 auto;
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 1rem;
+    }
+    .tech-item {
+      background: var(--dark3);
+      border: 1px solid rgba(0,217,255,0.1);
+      border-radius: 10px; padding: 1rem;
+      text-align: center; cursor: default;
+      transition: all 0.3s;
+    }
+    .tech-item:hover {
+      border-color: var(--cyan);
+      box-shadow: var(--glow-cyan);
+      transform: translateY(-5px);
+    }
+    .tech-icon { font-size: 1.8rem; margin-bottom: 0.4rem; }
+    .tech-name { font-size: 0.8rem; font-weight: 600; color: var(--text); }
+
+    /* ========== PROJECTS ========== */
+    #projects { background: var(--dark2); }
+    .filter-bar {
+      display: flex; gap: 0.75rem; flex-wrap: wrap;
+      justify-content: center; margin-bottom: 2.5rem;
+    }
+    .filter-btn {
+      padding: 0.5rem 1.25rem; border-radius: 20px;
+      border: 1px solid rgba(0,217,255,0.3);
+      background: transparent; color: var(--text);
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.9rem; font-weight: 600; letter-spacing: 1px;
+      cursor: pointer; transition: all 0.3s;
+    }
+    .filter-btn.active,
+    .filter-btn:hover {
+      background: linear-gradient(135deg, var(--cyan), var(--purple));
+      color: #000; border-color: transparent;
+      box-shadow: var(--glow-cyan);
+    }
+    .projects-grid {
+      max-width: 1200px; margin: 0 auto;
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1.5rem;
+    }
+    .project-card {
+      background: var(--dark3);
+      border: 1px solid rgba(0,217,255,0.1);
+      border-radius: 12px; padding: 1.5rem;
+      transition: all 0.35s; position: relative; overflow: hidden;
+      display: flex; flex-direction: column;
+    }
+    .project-card::before {
+      content: ''; position: absolute; top: 0; left: 0;
+      width: 100%; height: 3px;
+      background: linear-gradient(90deg, var(--cyan), var(--purple));
+      transform: scaleX(0); transition: transform 0.3s; transform-origin: left;
+    }
+    .project-card:hover::before { transform: scaleX(1); }
+    .project-card:hover {
+      border-color: rgba(0,217,255,0.4);
+      box-shadow: var(--glow-cyan);
+      transform: translateY(-6px);
+    }
+    .project-card.hidden { display: none; }
+    .card-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 0.75rem; }
+    .card-emoji { font-size: 2rem; line-height: 1; }
+    .card-badge {
+      font-size: 0.7rem; font-weight: 700; letter-spacing: 1px;
+      padding: 0.25rem 0.6rem; border-radius: 10px; text-transform: uppercase;
+    }
+    .badge-flagship { background: rgba(0,217,255,0.15); color: var(--cyan); border: 1px solid rgba(0,217,255,0.3); }
+    .badge-bi { background: rgba(242,200,17,0.15); color: #f2c811; border: 1px solid rgba(242,200,17,0.3); }
+    .badge-web { background: rgba(255,107,157,0.15); color: var(--pink); border: 1px solid rgba(255,107,157,0.3); }
+    .badge-academic { background: rgba(139,92,246,0.15); color: var(--purple); border: 1px solid rgba(139,92,246,0.3); }
+    .card-title {
+      font-family: 'Orbitron', monospace;
+      font-size: 1rem; font-weight: 700; color: var(--text-bright); margin-bottom: 0.5rem;
+    }
+    .card-desc { font-size: 0.9rem; line-height: 1.6; color: var(--text); flex: 1; }
+    .card-metrics {
+      background: rgba(0,217,255,0.05); border-radius: 6px;
+      padding: 0.6rem 0.75rem; margin: 0.75rem 0;
+      font-family: 'Fira Code', monospace; font-size: 0.75rem; color: var(--cyan);
+    }
+    .card-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.75rem 0; }
+    .tag {
+      font-size: 0.7rem; font-weight: 600; letter-spacing: 0.5px;
+      padding: 0.2rem 0.5rem; border-radius: 4px;
+      background: var(--dark4); color: var(--text);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .card-links { display: flex; gap: 0.75rem; margin-top: auto; padding-top: 1rem; }
+    .card-link {
+      display: flex; align-items: center; gap: 0.4rem;
+      font-size: 0.85rem; font-weight: 600; color: var(--cyan);
+      text-decoration: none; transition: color 0.3s;
+    }
+    .card-link:hover { color: var(--purple); }
+
+    /* ========== SKILLS ========== */
+    #skills { background: var(--dark); }
+    .skills-table-wrap { max-width: 900px; margin: 0 auto; overflow-x: auto; }
+    .skills-table {
+      width: 100%; border-collapse: collapse;
+      font-size: 0.95rem;
+    }
+    .skills-table th {
+      background: linear-gradient(90deg, rgba(0,217,255,0.15), rgba(139,92,246,0.15));
+      color: var(--cyan); font-family: 'Orbitron', monospace;
+      font-size: 0.8rem; letter-spacing: 1px; text-align: left;
+      padding: 0.85rem 1rem; border-bottom: 2px solid rgba(0,217,255,0.3);
+    }
+    .skills-table td {
+      padding: 0.75rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.04);
+      vertical-align: top;
+    }
+    .skills-table tr:hover td { background: rgba(0,217,255,0.03); }
+    .skills-table td:first-child { color: var(--text-bright); font-weight: 700; }
+    .skills-table td:last-child { color: var(--text); font-size: 0.85rem; line-height: 1.6; }
+
+    /* ========== CERTIFICATIONS ========== */
+    #certifications { background: var(--dark2); }
+    .certs-grid {
+      max-width: 900px; margin: 0 auto;
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem;
+    }
+    .cert-card {
+      background: var(--dark3); border: 1px solid rgba(0,217,255,0.1);
+      border-radius: 10px; padding: 1.25rem;
+      display: flex; align-items: flex-start; gap: 1rem;
+      transition: all 0.3s;
+    }
+    .cert-card:hover {
+      border-color: rgba(0,217,255,0.4);
+      transform: translateY(-3px);
+      box-shadow: var(--glow-cyan);
+    }
+    .cert-icon { font-size: 1.75rem; flex-shrink: 0; }
+    .cert-info h4 { font-size: 0.9rem; font-weight: 700; color: var(--text-bright); margin-bottom: 0.25rem; }
+    .cert-info p { font-size: 0.8rem; color: var(--text); }
+    .cert-info span { font-size: 0.75rem; color: var(--cyan); font-family: 'Fira Code', monospace; }
+
+    /* ========== GITHUB STATS ========== */
+    #github-stats { background: var(--dark); }
+    .stats-grid {
+      max-width: 900px; margin: 0 auto;
+      display: flex; flex-direction: column; align-items: center; gap: 1rem;
+    }
+    .stats-row { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; width: 100%; }
+    .stats-grid img {
+      border-radius: 8px; max-width: 100%;
+      border: 1px solid rgba(0,217,255,0.15);
+      transition: all 0.3s;
+    }
+    .stats-grid img:hover { border-color: var(--cyan); box-shadow: var(--glow-cyan); }
+
+    /* ========== CONTACT ========== */
+    #contact {
+      background: var(--dark2);
+      text-align: center;
+    }
+    .contact-desc { max-width: 550px; margin: 0 auto 2.5rem; font-size: 1rem; line-height: 1.7; }
+    .contact-links { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem; }
+    .contact-card {
+      display: flex; align-items: center; gap: 0.75rem;
+      background: var(--dark3); border: 1px solid rgba(0,217,255,0.15);
+      border-radius: 10px; padding: 1rem 1.5rem;
+      text-decoration: none; color: var(--text);
+      transition: all 0.3s;
+    }
+    .contact-card:hover {
+      border-color: var(--cyan); color: var(--cyan);
+      transform: translateY(-3px); box-shadow: var(--glow-cyan);
+    }
+    .contact-card i { font-size: 1.25rem; color: var(--cyan); }
+
+    /* ========== FOOTER ========== */
+    footer {
+      background: var(--dark); text-align: center;
+      padding: 2rem; border-top: 1px solid rgba(0,217,255,0.1);
+      font-size: 0.85rem; color: var(--text); position: relative; z-index: 1;
+    }
+    footer span { color: var(--cyan); }
+
+    /* ========== RESPONSIVE ========== */
+    @media (max-width: 768px) {
+      .about-grid { grid-template-columns: 1fr; }
+      .nav-links { display: none; flex-direction: column; position: absolute; top: 60px; left: 0; right: 0; background: var(--dark2); padding: 1rem 2rem; border-bottom: 1px solid rgba(0,217,255,0.15); }
+      .nav-links.open { display: flex; }
+      .hamburger { display: flex; }
+      .projects-grid { grid-template-columns: 1fr; }
+      .hero-stats { gap: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Particle Canvas -->
+<canvas id="particles-canvas"></canvas>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-brand">JVT<span style="color:var(--purple)">.</span>DEV</div>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#tech-stack">Stack</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#certifications">Certs</a></li>
+    <li><a href="#github-stats">Stats</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-tag">// available for collaboration &amp; opportunities</div>
+  <h1 class="hero-name">Jordan <span>Villón</span> Torres</h1>
+  <div id="typed-text"><span class="cursor-blink"></span></div>
+  <p class="hero-desc">
+    Specialized in <strong style="color:var(--cyan)">Machine Learning</strong>, <strong style="color:var(--purple)">Business Intelligence</strong>, and <strong style="color:var(--pink)">Territorial Analytics</strong> — 5+ years transforming complex datasets into measurable competitive advantage.
+  </p>
+  <div class="hero-cta">
+    <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> View Projects</a>
+    <a href="https://jordanvt18.github.io" target="_blank" class="btn btn-outline"><i class="fas fa-globe"></i> Portfolio</a>
+    <a href="https://www.linkedin.com/in/jordanvillontorres" target="_blank" class="btn btn-outline"><i class="fab fa-linkedin"></i> LinkedIn</a>
+  </div>
+  <div class="hero-stats">
+    <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+      <div class="stat-num" id="counter-years">0</div>
+      <div class="stat-label">Years Experience</div>
+    </div>
+    <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+      <div class="stat-num" id="counter-projects">0</div>
+      <div class="stat-label">Active Projects</div>
+    </div>
+    <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+      <div class="stat-num" id="counter-industries">0</div>
+      <div class="stat-label">Industries Served</div>
+    </div>
+    <div class="stat-item" data-aos="fade-up" data-aos-delay="400">
+      <div class="stat-num" id="counter-nps">0</div>
+      <div class="stat-label">% NPS Improvement</div>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <span>scroll</span>
+    <i class="fas fa-chevron-down"></i>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-header" data-aos="fade-up">
+    <div class="section-tag">// who am i</div>
+    <h2 class="section-title">About <span>Me</span></h2>
+    <div class="divider"></div>
+  </div>
+  <div class="about-grid">
+    <div class="about-text" data-aos="fade-right">
+      <h3>Data Scientist &amp; ML Engineer</h3>
+      <p>I'm <strong>Jordan Villón Torres</strong>, a Business Data Scientist and Economist based in Ecuador with 5+ years applying advanced analytics across <strong>Beverage & Spirits, Fintech, Food Distribution, Real Estate, and Technology</strong> industries.</p>
+      <p>My work bridges rigorous statistical modeling with practical business impact — from building <strong>credit scoring systems with XGBoost/LightGBM</strong> to designing interactive BI dashboards that reduce analysis time by 30%.</p>
+      <p>I specialize in turning messy, complex data into intelligent systems that drive real decisions and measurable ROI.</p>
+      <div class="about-highlights">
+        <div class="highlight-item"><i class="fas fa-brain"></i> ML Model Development &amp; Optimization</div>
+        <div class="highlight-item"><i class="fas fa-chart-bar"></i> BI Dashboarding &amp; Data Storytelling</div>
+        <div class="highlight-item"><i class="fas fa-map-marked-alt"></i> Geospatial &amp; Territorial Analytics</div>
+        <div class="highlight-item"><i class="fas fa-cogs"></i> Data Engineering &amp; MLOps</div>
+      </div>
+    </div>
+    <div class="about-card" data-aos="fade-left">
+      <h4>🎯 Key Achievements</h4>
+      <ul class="impact-list">
+        <li>Engineered ML models driving +70% NPS optimization</li>
+        <li>Designed BI ecosystems reducing analysis hours by 30%</li>
+        <li>Implemented spatial optimization algorithms for supply chain efficiency</li>
+        <li>Developed anomaly detection systems for financial transaction monitoring</li>
+        <li>Created territory analysis frameworks enabling data-driven expansion strategy</li>
+        <li>Built deep learning pipeline with 25% pesticide reduction impact</li>
+        <li>Designed credit scoring system with XGBoost achieving production ROI</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- TECH STACK -->
+<section id="tech-stack">
+  <div class="section-header" data-aos="fade-up">
+    <div class="section-tag">// tools &amp; technologies</div>
+    <h2 class="section-title">Tech <span>Stack</span></h2>
+    <div class="divider"></div>
+  </div>
+  <div class="tech-grid" id="tech-grid">
+    <!-- populated by JS -->
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-header" data-aos="fade-up">
+    <div class="section-tag">// portfolio</div>
+    <h2 class="section-title">Featured <span>Projects</span></h2>
+    <div class="divider"></div>
+  </div>
+  <div class="filter-bar" data-aos="fade-up" data-aos-delay="100">
+    <button class="filter-btn active" onclick="filterProjects('all')">All</button>
+    <button class="filter-btn" onclick="filterProjects('flagship')">🎯 Flagship</button>
+    <button class="filter-btn" onclick="filterProjects('bi')">📈 BI &amp; Analytics</button>
+    <button class="filter-btn" onclick="filterProjects('web')">🌐 Web &amp; Portfolio</button>
+    <button class="filter-btn" onclick="filterProjects('academic')">🔬 Academic</button>
+  </div>
+  <div class="projects-grid" id="projects-grid">
+    <!-- populated by JS -->
+  </div>
+</section>
+
+<!-- SKILLS TABLE -->
+<section id="skills">
+  <div class="section-header" data-aos="fade-up">
+    <div class="section-tag">// expertise</div>
+    <h2 class="section-title">Skills &amp; <span>Expertise</span></h2>
+    <div class="divider"></div>
+  </div>
+  <div class="skills-table-wrap" data-aos="fade-up" data-aos-delay="100">
+    <table class="skills-table">
+      <thead>
+        <tr><th>Domain</th><th>Expertise</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Machine Learning</td><td>Supervised/Unsupervised Learning, Ensemble Methods (XGBoost, LightGBM, CatBoost), Neural Networks, Time Series Forecasting</td></tr>
+        <tr><td>Deep Learning</td><td>CNN/RNN Architectures, Transfer Learning (ResNet18), PyTorch, TensorFlow, Computer Vision</td></tr>
+        <tr><td>Data Engineering</td><td>Pipeline Design, ETL/ELT, Big Data (Spark), Data Warehousing, Databricks</td></tr>
+        <tr><td>Business Intelligence</td><td>Dashboard Development, Data Storytelling, Interactive Visualization, Power BI, Tableau</td></tr>
+        <tr><td>Statistics &amp; Econometrics</td><td>Hypothesis Testing, Regression Analysis, Multivariate Analysis, Causal Inference, Spatial Statistics</td></tr>
+        <tr><td>Geospatial Analysis</td><td>Territory Mapping, QGIS, Choropleth Visualization, Spatial Statistics, Territorial Analytics</td></tr>
+        <tr><td>DevOps &amp; MLOps</td><td>Docker, CI/CD Pipelines, Git Workflows, Model Deployment, GitHub Actions</td></tr>
+        <tr><td>Programming</td><td>Python, R, SQL, JavaScript, LaTeX — with advanced libraries including Pandas, Polars, Scikit-learn, PyTorch</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="section-header" data-aos="fade-up">
+    <div class="section-tag">// credentials</div>
+    <h2 class="section-title">Certifications &amp; <span>Credentials</span></h2>
+    <div class="divider"></div>
+  </div>
+  <div class="certs-grid" id="certs-grid">
+    <!-- populated by JS -->
+  </div>
+</section>
+
+<!-- GITHUB STATS -->
+<section id="github-stats">
+  <div class="section-header" data-aos="fade-up">
+    <div class="section-tag">// activity</div>
+    <h2 class="section-title">GitHub <span>Analytics</span></h2>
+    <div class="divider"></div>
+  </div>
+  <div class="stats-grid" data-aos="fade-up" data-aos-delay="100">
+    <div class="stats-row">
+      <img src="https://github-readme-stats.vercel.app/api?username=jordanvt18&show_icons=true&theme=radical&rank_icon=percentile&hide_border=true&bg_color=0d1117" alt="Jordan's GitHub Stats" height="180" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jordanvt18&layout=compact&theme=radical&langs_count=10&hide_border=true&bg_color=0d1117" alt="Top Languages" height="180" />
+    </div>
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=jordanvt18&theme=radical&date_format=M%20j%5B%2C%20Y%5D&hide_border=true&background=0d1117" alt="GitHub Streak" style="max-width:600px;" />
+    <img src="https://komarev.com/ghpvc/?username=jordanvt18&color=00d9ff&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-header" data-aos="fade-up">
+    <div class="section-tag">// let's connect</div>
+    <h2 class="section-title">Get In <span>Touch</span></h2>
+    <div class="divider"></div>
+  </div>
+  <p class="contact-desc" data-aos="fade-up" data-aos-delay="100">
+    I'm actively seeking opportunities to collaborate on open-source data science projects, BI consulting, ML applications in agriculture, fintech, and real estate, and technical mentorship.
+  </p>
+  <div class="contact-links" data-aos="fade-up" data-aos-delay="200">
+    <a href="https://www.linkedin.com/in/jordanvillontorres" target="_blank" class="contact-card">
+      <i class="fab fa-linkedin"></i>
+      <span>LinkedIn</span>
+    </a>
+    <a href="https://github.com/jordanvt18" target="_blank" class="contact-card">
+      <i class="fab fa-github"></i>
+      <span>GitHub</span>
+    </a>
+    <a href="mailto:jvto18@proton.me" class="contact-card">
+      <i class="fas fa-envelope"></i>
+      <span>jvto18@proton.me</span>
+    </a>
+    <a href="https://jordanvt18.github.io" target="_blank" class="contact-card">
+      <i class="fas fa-globe"></i>
+      <span>Portfolio Site</span>
+    </a>
+  </div>
+  <p data-aos="fade-up" data-aos-delay="300" style="font-size:0.85rem;color:var(--text);font-style:italic;">
+    "Building intelligent systems that transform raw data into competitive advantage."
+  </p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 <span>Jordan Villón Torres</span> — Data Scientist &amp; ML Engineer | Built with ❤️ + HTML5, CSS3, JS</p>
+</footer>
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+// ===== AOS INIT =====
+AOS.init({ duration: 700, once: true, offset: 80 });
+
+// ===== HAMBURGER =====
+function toggleMenu() {
+  document.getElementById('nav-links').classList.toggle('open');
+}
+
+// ===== PARTICLES =====
+(function() {
+  const canvas = document.getElementById('particles-canvas');
+  const ctx = canvas.getContext('2d');
+  let W, H, particles = [];
+  function resize() { W = canvas.width = window.innerWidth; H = canvas.height = window.innerHeight; }
+  resize();
+  window.addEventListener('resize', resize);
+  const colors = ['#00d9ff','#8b5cf6','#ff6b9d'];
+  for (let i = 0; i < 70; i++) {
+    particles.push({
+      x: Math.random()*W, y: Math.random()*H,
+      r: Math.random()*2+0.5,
+      vx: (Math.random()-0.5)*0.4, vy: (Math.random()-0.5)*0.4,
+      color: colors[Math.floor(Math.random()*colors.length)]
+    });
+  }
+  function draw() {
+    ctx.clearRect(0,0,W,H);
+    particles.forEach(p => {
+      ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+      ctx.fillStyle = p.color; ctx.fill();
+      p.x += p.vx; p.y += p.vy;
+      if (p.x<0||p.x>W) p.vx*=-1;
+      if (p.y<0||p.y>H) p.vy*=-1;
+    });
+    // draw lines between close particles
+    for (let i=0;i<particles.length;i++) for (let j=i+1;j<particles.length;j++) {
+      const dx=particles[i].x-particles[j].x, dy=particles[i].y-particles[j].y;
+      const dist=Math.sqrt(dx*dx+dy*dy);
+      if (dist<120) {
+        ctx.beginPath();
+        ctx.strokeStyle='rgba(0,217,255,'+(1-dist/120)*0.12+')';
+        ctx.lineWidth=0.5;
+        ctx.moveTo(particles[i].x,particles[i].y);
+        ctx.lineTo(particles[j].x,particles[j].y);
+        ctx.stroke();
+      }
+    }
+    requestAnimationFrame(draw);
+  }
+  draw();
+})();
+
+// ===== TYPING ANIMATION =====
+(function() {
+  const phrases = [
+    'Data Scientist | ML Engineer | BI Developer',
+    'Transforming Data Into Competitive Advantage',
+    'Deep Learning • Time Series • Geospatial Analytics',
+    'Building Intelligent Systems That Drive ROI',
+    'Ecuador 🇪🇨 | Open to Remote Opportunities'
+  ];
+  const el = document.getElementById('typed-text');
+  let pi=0, ci=0, deleting=false;
+  function type() {
+    const current = phrases[pi];
+    const disp = deleting ? current.slice(0,ci--) : current.slice(0,ci++);
+    el.innerHTML = disp + '<span class="cursor-blink"></span>';
+    if (!deleting && ci > current.length) { setTimeout(()=>{ deleting=true; }, 1600); setTimeout(type, 80); return; }
+    if (deleting && ci < 0) { deleting=false; pi=(pi+1)%phrases.length; ci=0; setTimeout(type, 400); return; }
+    setTimeout(type, deleting ? 40 : 70);
+  }
+  type();
+})();
+
+// ===== COUNTERS =====
+function animateCounter(id, target, suffix='') {
+  const el = document.getElementById(id);
+  let current = 0;
+  const step = Math.ceil(target / 40);
+  const timer = setInterval(() => {
+    current = Math.min(current + step, target);
+    el.textContent = current + suffix;
+    if (current >= target) clearInterval(timer);
+  }, 40);
+}
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      animateCounter('counter-years', 5, '+');
+      animateCounter('counter-projects', 12, '+');
+      animateCounter('counter-industries', 5);
+      animateCounter('counter-nps', 70, '+');
+      observer.disconnect();
+    }
+  });
+}, { threshold: 0.5 });
+observer.observe(document.querySelector('.hero-stats'));
+
+// ===== TECH STACK DATA =====
+const techStack = [
+  { icon:'🐍', name:'Python' }, { icon:'📊', name:'R' },
+  { icon:'🗄️', name:'SQL' }, { icon:'🌐', name:'JavaScript' },
+  { icon:'📈', name:'Power BI' }, { icon:'📉', name:'Tableau' },
+  { icon:'🔥', name:'PyTorch' }, { icon:'🤖', name:'Scikit-learn' },
+  { icon:'🐳', name:'Docker' }, { icon:'⚡', name:'Spark' },
+  { icon:'🍃', name:'MongoDB' }, { icon:'🔀', name:'Git' },
+  { icon:'🧱', name:'Databricks' }, { icon:'📦', name:'TensorFlow' },
+  { icon:'🐼', name:'Pandas' }, { icon:'🦊', name:'Polars' },
+];
+const tg = document.getElementById('tech-grid');
+techStack.forEach((t,i) => {
+  tg.innerHTML += `<div class="tech-item" data-aos="zoom-in" data-aos-delay="${i*40}">
+    <div class="tech-icon">${t.icon}</div>
+    <div class="tech-name">${t.name}</div>
+  </div>`;
+});
+
+// ===== PROJECTS DATA =====
+const projects = [
+  {
+    emoji:'🍌', category:'flagship', badge:'badge-flagship', badgeLabel:'Flagship',
+    title:'Banana Disease Detection',
+    desc:'Advanced deep learning classification system using ResNet18 + Transfer Learning for agricultural disease detection across 4 pathology classes. Production-ready with Docker containerization.',
+    metrics:'5s/image inference • +150% projected ROI • 25% pesticide reduction',
+    tags:['PyTorch','Transfer Learning','Computer Vision','Docker','Deep Learning'],
+    github:'https://github.com/jordanvt18/banana-disease-detection', live:null
+  },
+  {
+    emoji:'📊', category:'flagship', badge:'badge-flagship', badgeLabel:'Flagship',
+    title:'Python Data Processing Benchmark',
+    desc:'Comprehensive technical comparison of major Python data processing libraries with rigorous benchmarking across memory efficiency, computation speed, and use-case optimization.',
+    metrics:'Comparative visualizations • Best-practice guides • Reproducible tests',
+    tags:['Pandas','Polars','Big Data','Performance Analysis','Python'],
+    github:'https://github.com/jordanvt18/python-data-processing-benchmark', live:null
+  },
+  {
+    emoji:'🔐', category:'flagship', badge:'badge-flagship', badgeLabel:'Flagship',
+    title:'Centinela Live',
+    desc:'Modular security monitoring and real-time alerting system with advanced threat detection. Scalable microservices architecture with event-driven pipeline and real-time dashboard.',
+    metrics:'Scalable microservices • Event-driven pipeline • Real-time dashboard',
+    tags:['Security','Python','JavaScript','Full Stack','Real-time'],
+    github:'https://github.com/jordanvt18/Centinela_live', live:null
+  },
+  {
+    emoji:'📊', category:'bi', badge:'badge-bi', badgeLabel:'BI & Analytics',
+    title:'Ecuador Education Dashboard',
+    desc:'Interactive public Power BI dashboard analyzing official degree registrations across Ecuador with sophisticated filtering by province, institution, gender, and education level.',
+    metrics:'Province filtering • Gender analysis • Temporal trends',
+    tags:['Power BI','Open Data','Educational Analytics','Territorial Analysis'],
+    github:'https://github.com/jordanvt18/TESISGRADO',
+    live:'https://app.powerbi.com/view?r=eyJrIjoiNTQxYTk2ZTktYWEzZS00OWI3LTg3YzAtZjJmZjBkZDc1YmJiIiwidCI6ImI3YWY4Y2FmLTgzZDgtNDY0NC04NWFlLTMxN2M1NDUyMjNjMSIsImMiOjR9'
+  },
+  {
+    emoji:'💳', category:'bi', badge:'badge-bi', badgeLabel:'BI & Analytics',
+    title:'Financial Security Analyzer',
+    desc:'Comparative financial security platform evaluating banking institutions and cooperatives in Ecuador with advanced risk assessment, certification tracking, and protection analysis.',
+    metrics:'Risk assessment • Certification tracking • Interactive visualization',
+    tags:['Fintech','JavaScript','Risk Analysis','Banking','Security'],
+    github:'https://github.com/jordanvt18/bancos-cooperativas-ecuador', live:null
+  },
+  {
+    emoji:'🏠', category:'bi', badge:'badge-bi', badgeLabel:'BI & Analytics',
+    title:'SmartLife Analyzer',
+    desc:'Static health dashboard with real-time analysis and ML model retraining demonstration. Full-stack capability combining data visualization with predictive analytics.',
+    metrics:'Real-time analysis • ML retraining demo • Health KPIs',
+    tags:['Health Analytics','HTML/CSS/JS','Dashboard','Predictive Analytics'],
+    github:'https://github.com/jordanvt18/smartlife-analyzer', live:null
+  },
+  {
+    emoji:'💼', category:'web', badge:'badge-web', badgeLabel:'Web & Portfolio',
+    title:'Professional Portfolio',
+    desc:'Custom-built portfolio highlighting career trajectory, featured projects, technical certifications, and blog content with automated CI/CD deployment pipeline via GitHub Pages.',
+    metrics:'Jekyll • GitHub Pages • CI/CD • Personal Branding',
+    tags:['Jekyll','GitHub Pages','CI/CD','HTML','CSS'],
+    github:'https://github.com/jordanvt18/jordanvillont.github.io',
+    live:'https://jordanvt18.github.io'
+  },
+  {
+    emoji:'⏱️', category:'web', badge:'badge-web', badgeLabel:'Web & Portfolio',
+    title:'Time Series Resources',
+    desc:'Curated collection of advanced time series analysis methodologies and resources for temporal data modeling, including ARIMA, forecasting, and econometric techniques.',
+    metrics:'ARIMA • Forecasting • Econometrics • Educational content',
+    tags:['Time Series','Econometrics','ARIMA','Forecasting','R'],
+    github:'https://github.com/jordanvt18/Time-Series-Textbooks', live:null
+  },
+  {
+    emoji:'📚', category:'web', badge:'badge-web', badgeLabel:'Web & Portfolio',
+    title:'Configuration Templates',
+    desc:'Reusable configuration frameworks optimizing GitHub profile setup and developer workflows. Best-practice templates for reproducible development environments.',
+    metrics:'GitHub Config • Best Practices • Developer Workflows',
+    tags:['GitHub','Config','Best Practices','DevOps'],
+    github:'https://github.com/jordanvt18/jovii18', live:null
+  },
+  {
+    emoji:'📊', category:'academic', badge:'badge-academic', badgeLabel:'Academic',
+    title:'Crime Analytics Study',
+    desc:'Thesis-level research characterizing criminality patterns across Ecuadorian provinces and macroeconomic impacts using hierarchical clustering and advanced econometric methodology.',
+    metrics:'Hierarchical Clustering • Provincial Analysis • Policy Research',
+    tags:['Hierarchical Clustering','Econometrics','Territorial Stats','R','Policy'],
+    github:'https://github.com/jordanvt18/TESISGRADO', live:null
+  },
+  {
+    emoji:'🧮', category:'academic', badge:'badge-academic', badgeLabel:'Academic',
+    title:'R Algorithms Library',
+    desc:'Computational implementations of matrix operations and statistical algorithms in R, covering linear algebra fundamentals for statistical computing education.',
+    metrics:'Matrix operations • Statistical computing • Educational content',
+    tags:['R','Linear Algebra','Statistical Computing','Algorithms'],
+    github:'https://github.com/jordanvt18/rdpeng-ProgrammingAssignment2', live:null
+  },
+  {
+    emoji:'🎓', category:'academic', badge:'badge-academic', badgeLabel:'Academic',
+    title:'GitHub Desktop Demo',
+    desc:'Interactive tutorials for version control best practices and collaborative development workflows, designed to onboard developers into modern Git collaboration.',
+    metrics:'Version control • Collaboration workflows • Educational tutorials',
+    tags:['Version Control','Git','Education','Collaboration'],
+    github:'https://github.com/jordanvt18/desktop-tutorial', live:null
+  }
+];
+
+const pg = document.getElementById('projects-grid');
+projects.forEach((p, i) => {
+  const liveBtn = p.live ? `<a href="${p.live}" target="_blank" class="card-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>` : '';
+  pg.innerHTML += `<div class="project-card" data-category="${p.category}" data-aos="fade-up" data-aos-delay="${(i%3)*100}">
+    <div class="card-header">
+      <span class="card-emoji">${p.emoji}</span>
+      <span class="card-badge ${p.badge}">${p.badgeLabel}</span>
+    </div>
+    <div class="card-title">${p.title}</div>
+    <div class="card-desc">${p.desc}</div>
+    <div class="card-metrics">📌 ${p.metrics}</div>
+    <div class="card-tags">${p.tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>
+    <div class="card-links">
+      <a href="${p.github}" target="_blank" class="card-link"><i class="fab fa-github"></i> GitHub</a>
+      ${liveBtn}
+    </div>
+  </div>`;
+});
+
+// ===== PROJECT FILTER =====
+function filterProjects(cat) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  document.querySelectorAll('.project-card').forEach(card => {
+    if (cat === 'all' || card.dataset.category === cat) {
+      card.classList.remove('hidden');
+      card.style.animation = 'none';
+      void card.offsetWidth;
+      card.style.animation = '';
+    } else {
+      card.classList.add('hidden');
+    }
+  });
+}
+
+// ===== CERTIFICATIONS DATA =====
+const certs = [
+  { icon:'🤖', name:'Machine Learning & TensorFlow Specialization', issuer:'IBM', year:'2024' },
+  { icon:'📊', name:'Applied Data Science Lab', issuer:'WorldQuant University', year:'2024' },
+  { icon:'🐍', name:'Python for Data Science', issuer:'IBM', year:'2023' },
+  { icon:'💰', name:'Financial Analysis & Modeling', issuer:'CFI', year:'2025' },
+  { icon:'🐙', name:'GitHub Career Essentials', issuer:'GitHub', year:'2025' },
+  { icon:'🧱', name:'Databricks Certification', issuer:'Databricks', year:'In Progress' },
+];
+const cg = document.getElementById('certs-grid');
+certs.forEach((c, i) => {
+  cg.innerHTML += `<div class="cert-card" data-aos="fade-up" data-aos-delay="${i*80}">
+    <div class="cert-icon">${c.icon}</div>
+    <div class="cert-info">
+      <h4>${c.name}</h4>
+      <p>${c.issuer}</p>
+      <span>${c.year}</span>
+    </div>
+  </div>`;
+});
+</script>
+</body>
+</html>
