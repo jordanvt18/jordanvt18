@@ -1,7 +1,7 @@
 <!-- HEADER -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Jordan%20Vill%C3%B3n%20Torres&fontSize=42&fontColor=00D9FF&animation=fadeIn&fontAlignY=38&desc=Data%20Scientist%20%7C%20ML%20Engineer%20%7C%20BI%20Developer&descAlignY=58&descSize=18&descColor=8B5CF6" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Jordan%20Vill%C3%B3n&fontSize=42&fontColor=00D9FF&animation=fadeIn&fontAlignY=38&desc=Data%20Scientist%20%7C%20ML%20Engineer%20%7C%20BI%20Developer&descAlignY=58&descSize=18&descColor=8B5CF6" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=3000&pause=1000&color=00D9FF&center=true&width=700&lines=Transforming+Data+Into+Competitive+Advantage;Deep+Learning+%E2%80%A2+Time+Series+%E2%80%A2+BI+Dashboards;5%2B+Years+%7C+5+Industries+%7C+12%2B+Projects;Ecuador+%F0%9F%87%AA%F0%9F%87%A8+%7C+Open+to+Remote+Opportunities" alt="Typing SVG" />
 
