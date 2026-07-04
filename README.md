@@ -86,16 +86,17 @@ jordan = {
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jordanvt18&show_icons=true&theme=radical&rank_icon=percentile&hide_border=true&bg_color=0d1117" height="180" alt="GitHub Stats"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jordanvt18&layout=compact&theme=radical&langs_count=10&hide_border=true&bg_color=0d1117" height="180" alt="Top Languages"/>
-</div>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jordanvt18&theme=react-dark&hide_border=true&area=true&color=00d9ff&line=8b5cf6&point=ff6b9d" alt="Contribution Activity Graph" width="95%"/>
+![Commits](https://img.shields.io/badge/Total%20Commits-147-00D9FF?style=for-the-badge&logo=github&logoColor=white)
+![Repos](https://img.shields.io/badge/Public%20Repos-12%2B-8B5CF6?style=for-the-badge&logo=github&logoColor=white)
+![Languages](https://img.shields.io/badge/Top%20Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Focus](https://img.shields.io/badge/Focus-Data%20Science%20%26%20ML-FF6B6B?style=for-the-badge&logo=pytorch&logoColor=white)
+
+[![View GitHub Profile](https://img.shields.io/badge/%F0%9F%94%8D%20Explore%20All%20Repos%20on%20GitHub-161b22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jordanvt18?tab=repositories)
+
 </div>
 
 ---
