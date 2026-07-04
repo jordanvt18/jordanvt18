@@ -18,7 +18,7 @@
 
 [![Portfolio](https://img.shields.io/badge/%F0%9F%8C%90%20Live%20Portfolio-jordanvt18.github.io-00D9FF?style=for-the-badge)](https://jordanvt18.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Jordan%20Vill%C3%B3n-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres)
-[![Credentials](https://img.shields.io/badge/Credentials-Verified-22C55E?style=for-the-badge&logo=checkmarx&logoColor=white)](https://credentials.databricks.com)
+[![Credentials](https://img.shields.io/badge/Credentials-Verified-22C55E?style=for-the-badge&logo=checkmarx&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/certifications/)
 [![Email](https://img.shields.io/badge/Email-jvto18%40proton.me-8B5CF6?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:jvto18@proton.me)
 [![Profile Views](https://komarev.com/ghpvc/?username=jordanvt18&color=00d9ff&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/jordanvt18)
 
@@ -40,7 +40,7 @@ jordan = {
     "bi_tools"   : ["Power BI", "Tableau", "Plotly", "Matplotlib"],
     "devops"     : ["Docker", "Git", "CI/CD", "GitHub Actions", "MLflow"],
     "industries" : ["Beverage & Spirits", "Fintech", "Food Distribution", "Real Estate", "Tech"],
-    "certs"      : ["Databricks Lakehouse", "DataCamp DA Associate", "IBM ML Specialization"],
+    "certs"      : ["Databricks Lakehouse", "DataCamp DS Professional", "IBM ML Specialization"],
     "contact"    : "jvto18@proton.me | linkedin.com/in/jordanvillontorres"
 }
 ```
@@ -193,14 +193,14 @@ Public Power BI dashboard analyzing **degree registrations** across all Ecuador 
 
 <div align="center">
 
-[![Databricks](https://img.shields.io/badge/Databricks-Lakehouse%20Fundamentals-FF3621?style=for-the-badge&logo=databricks&logoColor=white)](https://credentials.databricks.com)
-[![Databricks](https://img.shields.io/badge/Databricks-Generative%20AI%20Fundamentals-FF3621?style=for-the-badge&logo=databricks&logoColor=white)](https://credentials.databricks.com)
+[![Databricks](https://img.shields.io/badge/Databricks-Lakehouse%20Fundamentals%20%E2%86%97-FF3621?style=for-the-badge&logo=databricks&logoColor=white)](https://credentials.databricks.com)
+[![Databricks](https://img.shields.io/badge/Databricks-Generative%20AI%20Fundamentals%20%E2%86%97-FF3621?style=for-the-badge&logo=databricks&logoColor=white)](https://credentials.databricks.com)
 
-[![DataCamp](https://img.shields.io/badge/DataCamp-Data%20Analyst%20Associate-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)](https://www.datacamp.com/certificate/DAA0013910322984)
-[![DataCamp](https://img.shields.io/badge/DataCamp-Data%20Scientist%20Professional-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)](https://www.datacamp.com/portfolio/jordanvt18)
-[![DataCamp](https://img.shields.io/badge/DataCamp-AI%20Fundamentals-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)](https://www.datacamp.com/portfolio/jordanvt18)
+[![DataCamp](https://img.shields.io/badge/DataCamp-Data%20Scientist%20Professional%20%E2%86%97-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)](https://www.datacamp.com/certificate/DS0025390455337)
+[![DataCamp](https://img.shields.io/badge/DataCamp-Data%20Analyst%20Associate%20%E2%86%97-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)](https://www.datacamp.com/portfolio/jordanvt18)
+[![DataCamp](https://img.shields.io/badge/DataCamp-AI%20Fundamentals%20%E2%86%97-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)](https://www.datacamp.com/portfolio/jordanvt18)
 
-[![Aspire](https://img.shields.io/badge/Aspire-Leader%20Program-FF6B6B?style=for-the-badge&logo=academia&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres)
+[![Aspire](https://img.shields.io/badge/Aspire-Leader%20Program%20%E2%86%97-FF6B6B?style=for-the-badge&logo=academia&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/certifications/)
 
 </div>
 
@@ -208,15 +208,15 @@ Public Power BI dashboard analyzing **degree registrations** across all Ecuador 
 
 <div align="center">
 
-[![IBM](https://img.shields.io/badge/IBM-Machine%20Learning%20%26%20TensorFlow-054ADA?style=for-the-badge&logo=ibm&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres)
-[![WorldQuant](https://img.shields.io/badge/WorldQuant-Applied%20Data%20Science%20Lab-1C3A72?style=for-the-badge&logo=academia&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres)
-[![CFI](https://img.shields.io/badge/CFI-Financial%20Analysis%20%26%20Modeling-2563EB?style=for-the-badge&logo=academia&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres)
-[![GitHub](https://img.shields.io/badge/GitHub-Career%20Essentials-161b22?style=for-the-badge&logo=github&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres)
-[![IBM](https://img.shields.io/badge/IBM-Enterprise%20Design%20Thinking-054ADA?style=for-the-badge&logo=ibm&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres)
+[![IBM](https://img.shields.io/badge/IBM-Machine%20Learning%20%26%20TensorFlow%20%E2%86%97-054ADA?style=for-the-badge&logo=ibm&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/certifications/)
+[![WorldQuant](https://img.shields.io/badge/WorldQuant-Applied%20Data%20Science%20Lab%20%E2%86%97-1C3A72?style=for-the-badge&logo=academia&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/certifications/)
+[![CFI](https://img.shields.io/badge/CFI-Financial%20Analysis%20%26%20Modeling%20%E2%86%97-2563EB?style=for-the-badge&logo=academia&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/certifications/)
+[![GitHub](https://img.shields.io/badge/GitHub-Career%20Essentials%20%E2%86%97-161b22?style=for-the-badge&logo=github&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/certifications/)
+[![IBM](https://img.shields.io/badge/IBM-Enterprise%20Design%20Thinking%20%E2%86%97-054ADA?style=for-the-badge&logo=ibm&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/certifications/)
 
 </div>
 
-> 📋 **All certifications verified on [LinkedIn](https://www.linkedin.com/in/jordanvillontorres) · Databricks badges at [credentials.databricks.com](https://credentials.databricks.com)**
+> 📋 All certifications verified · [View on LinkedIn](https://www.linkedin.com/in/jordanvillontorres/details/certifications/) · Databricks badges at [credentials.databricks.com](https://credentials.databricks.com)
 
 ---
 
