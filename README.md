@@ -1,9 +1,9 @@
 <!-- HEADER -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Jordan%20Vill%C3%B3n&fontSize=42&fontColor=00D9FF&animation=fadeIn&fontAlignY=38&desc=Data%20Scientist%20%7C%20ML%20Engineer%20%7C%20BI%20Developer&descAlignY=58&descSize=18&descColor=8B5CF6" />
+<h1>Jordan Villón</h1>
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=3000&pause=1000&color=00D9FF&center=true&width=700&lines=Transforming+Data+Into+Competitive+Advantage;Deep+Learning+%E2%80%A2+Time+Series+%E2%80%A2+BI+Dashboards;5%2B+Years+%7C+5+Industries+%7C+12%2B+Projects;Ecuador+%F0%9F%87%AA%F0%9F%87%A8+%7C+Open+to+Remote+Opportunities" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=20&duration=3000&pause=1000&color=00D9FF&center=true&width=700&lines=Data+Scientist+%7C+ML+Engineer+%7C+BI+Developer;Transforming+Data+Into+Competitive+Advantage;Deep+Learning+%E2%80%A2+Time+Series+%E2%80%A2+Geospatial+Analytics;5%2B+Years+%7C+5+Industries+%7C+12%2B+Projects;Ecuador+%F0%9F%87%AA%F0%9F%87%A8+%7C+Open+to+Remote+Opportunities" alt="Typing SVG" />
 
 <br/>
 
@@ -73,19 +73,20 @@ jordan = {
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jordanvt18&show_icons=true&theme=radical&rank_icon=percentile&hide_border=true" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jordanvt18&layout=compact&theme=radical&langs_count=10&hide_border=true" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=jordanvt18&show_icons=true&theme=radical&rank_icon=percentile&hide_border=true&bg_color=0d1117" height="180" alt="GitHub Stats"/>
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jordanvt18&layout=compact&theme=radical&langs_count=10&hide_border=true&bg_color=0d1117" height="180" alt="Top Languages"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jordanvt18&theme=radical&date_format=M%20j%5B%2C%20Y%5D&hide_border=true" height="180"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jordanvt18&theme=react-dark&hide_border=true&area=true&color=00d9ff&line=8b5cf6&point=ff6b9d" alt="Contribution Activity Graph" width="95%"/>
 </div>
 
 ---
 
 ## 🚀 Featured Projects
 
-> 🌐 **For the full interactive experience with filtering, animations & live demos → [jordanvt18.github.io](https://jordanvt18.github.io)**
+> 🌐 **Full interactive experience with filtering, animations & live demos → [jordanvt18.github.io](https://jordanvt18.github.io)**
 
 ### 🎯 Flagship Projects
 
@@ -98,11 +99,11 @@ jordan = {
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![CV](https://img.shields.io/badge/Computer%20Vision-00D9FF?style=flat-square)
 
-Advanced classification with **ResNet18 + Transfer Learning** for agricultural disease detection across 4 pathology classes. Docker containerized for CPU/GPU.
+**ResNet18 + Transfer Learning** for agricultural disease detection across 4 pathology classes. Docker containerized CPU/GPU.
 
-**`5s/image` &bull; `+150% ROI` &bull; `25% pesticide reduction`**
+**`5s/image` · `+150% ROI` · `25% pesticide reduction`**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/banana-disease-detection)
+[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/banana-disease-detection)
 
 </td>
 <td width="50%">
@@ -112,11 +113,11 @@ Advanced classification with **ResNet18 + Transfer Learning** for agricultural d
 ![Polars](https://img.shields.io/badge/Polars-CD792C?style=flat-square)
 ![Big Data](https://img.shields.io/badge/Big%20Data-00D9FF?style=flat-square)
 
-Rigorous benchmarking of Python data libraries across **memory efficiency**, computation speed, and use-case optimization with reproducible visual analytics.
+Rigorous benchmarking of Python data libraries across **memory, speed, and optimization** with reproducible visual analytics.
 
-**`Comparative visualizations` &bull; `Best-practice guides`**
+**`Comparative visualizations` · `Best-practice guides`**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/python-data-processing-benchmark)
+[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/python-data-processing-benchmark)
 
 </td>
 </tr>
@@ -128,11 +129,11 @@ Rigorous benchmarking of Python data libraries across **memory efficiency**, com
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Security](https://img.shields.io/badge/Security-8B5CF6?style=flat-square)
 
-Modular **security monitoring & real-time alerting** system. Scalable microservices with event-driven pipeline and live dashboard.
+**Security monitoring & real-time alerting** system. Scalable microservices with event-driven pipeline and live dashboard.
 
-**`Real-time alerts` &bull; `Microservices` &bull; `Full Stack`**
+**`Real-time alerts` · `Microservices` · `Full Stack`**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/Centinela_live)
+[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/Centinela_live)
 
 </td>
 <td width="50%">
@@ -141,11 +142,9 @@ Modular **security monitoring & real-time alerting** system. Scalable microservi
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![Open Data](https://img.shields.io/badge/Open%20Data-00D9FF?style=flat-square)
 
-Interactive Power BI dashboard analyzing **official degree registrations** across Ecuador — province, institution, gender & temporal filters.
+Interactive Power BI analyzing **official degree registrations** across Ecuador — province, institution, gender & temporal filters.
 
-**`Territorial Analysis` &bull; `Open Data` &bull; `BI`**
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/TESISGRADO)
+[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/TESISGRADO)
 [![Live Dashboard](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Dashboard-F2C811?style=flat-square)](https://app.powerbi.com/view?r=eyJrIjoiNTQxYTk2ZTktYWEzZS00OWI3LTg3YzAtZjJmZjBkZDc1YmJiIiwidCI6ImI3YWY4Y2FmLTgzZDgtNDY0NC04NWFlLTMxN2M1NDUyMjNjMSIsImMiOjR9)
 
 </td>
@@ -157,11 +156,9 @@ Interactive Power BI dashboard analyzing **official degree registrations** acros
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Fintech](https://img.shields.io/badge/Fintech-8B5CF6?style=flat-square)
 
-Comparative platform evaluating **banking institutions & cooperatives** in Ecuador with risk assessment, certification tracking, and interactive visualization.
+Comparative platform evaluating **banking institutions & cooperatives** in Ecuador with risk assessment and visualization.
 
-**`Risk Assessment` &bull; `Fintech` &bull; `Ecuador`**
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/bancos-cooperativas-ecuador)
+[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/bancos-cooperativas-ecuador)
 
 </td>
 <td width="50%">
@@ -170,35 +167,9 @@ Comparative platform evaluating **banking institutions & cooperatives** in Ecuad
 ![HTML](https://img.shields.io/badge/HTML%2FCSS%2FJS-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![Health](https://img.shields.io/badge/Health%20Analytics-00D9FF?style=flat-square)
 
-Health dashboard with **real-time analysis** and ML model retraining demo. Full-stack capability combining data visualization with predictive analytics.
+Health dashboard with **real-time analysis** and ML model retraining demo. Full-stack data visualization + predictive analytics.
 
-**`Real-time Analysis` &bull; `ML Demo` &bull; `Health KPIs`**
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/smartlife-analyzer)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### ⏱️ Time Series Resources
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
-![Econometrics](https://img.shields.io/badge/Econometrics-8B5CF6?style=flat-square)
-
-Curated collection of advanced **time series methodologies** — ARIMA, forecasting, and econometric techniques for temporal data modeling.
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/Time-Series-Textbooks)
-
-</td>
-<td width="50%">
-
-### 📊 Crime Analytics Study
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
-![Clustering](https://img.shields.io/badge/Hierarchical%20Clustering-00D9FF?style=flat-square)
-
-Thesis-level research on **criminality patterns** across Ecuadorian provinces using hierarchical clustering and econometric methodology.
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/TESISGRADO)
+[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/smartlife-analyzer)
 
 </td>
 </tr>
@@ -228,6 +199,20 @@ Thesis-level research on **criminality patterns** across Ecuadorian provinces us
 
 ## 🎓 Certifications & Credentials
 
+### 🏆 Platform Certifications
+
+| Certification | Issuer | Year |
+|:---|:---|:---:|
+| 🧱 Databricks Lakehouse Fundamentals | Databricks | 2025 |
+| 🧱 Databricks Generative AI Fundamentals | Databricks | 2025 |
+| 🧱 Data Engineer Associate *(in progress)* | Databricks | 2026 |
+| 📊 Data Analyst Associate | DataCamp | 2024 |
+| 🐍 Data Scientist Professional | DataCamp | 2024 |
+| 🤖 AI Fundamentals | DataCamp | 2024 |
+| 🌐 Aspire Leader Program | Aspire | 2024 |
+
+### 🏅 Specialization Certifications
+
 | Certification | Issuer | Year |
 |:---|:---|:---:|
 | 🤖 Machine Learning & TensorFlow Specialization | IBM | 2024 |
@@ -235,7 +220,7 @@ Thesis-level research on **criminality patterns** across Ecuadorian provinces us
 | 🐍 Python for Data Science | IBM | 2023 |
 | 💰 Financial Analysis & Modeling | CFI | 2025 |
 | 🐙 GitHub Career Essentials | GitHub | 2025 |
-| 🧱 Databricks Certification | Databricks | 🔄 In Progress |
+| 🧠 Enterprise Design Thinking Practitioner | IBM | 2022 |
 
 ---
 
@@ -243,7 +228,7 @@ Thesis-level research on **criminality patterns** across Ecuadorian provinces us
 
 <div align="center">
 
-| 📅 5+ Years Experience | 💡 12+ Active Projects | 🏭 5 Industries | 📈 +70% NPS Optimization |
+| 📅 5+ Years | 💡 12+ Projects | 🏭 5 Industries | 📈 +70% NPS |
 |:---:|:---:|:---:|:---:|
 | Beverage & Spirits | Deep Learning | Fintech | ML-driven decisions |
 | Food Distribution | BI Dashboards | Real Estate | Supply chain optimization |
@@ -259,17 +244,13 @@ Thesis-level research on **criminality patterns** across Ecuadorian provinces us
 - 📊 Real-time Analytics & Stream Processing
 - 🏗️ MLOps & Production Model Governance
 - 📈 Econometric Modeling & Forecasting
-- 🧱 Databricks Certification
+- 🧱 Databricks Data Engineer Associate Certification
 
 ---
 
 ## 🤝 Let's Connect
 
-I'm actively seeking opportunities to collaborate on:
-- **Open-source** data science projects
-- **BI & analytics** consulting for data-driven organizations
-- **ML applications** in agriculture, fintech, and real estate
-- **Mentorship** and technical knowledge sharing
+I'm actively seeking opportunities to collaborate on open-source data science projects, BI & analytics consulting, ML applications in agriculture, fintech, and real estate, and technical mentorship.
 
 <div align="center">
 
@@ -284,5 +265,5 @@ I'm actively seeking opportunities to collaborate on:
 <div align="center">
   <i>"Building intelligent systems that transform raw data into competitive advantage."</i>
   <br/><br/>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
+  <img src="https://komarev.com/ghpvc/?username=jordanvt18&color=00d9ff&style=for-the-badge" alt="Profile Views"/>
 </div>
