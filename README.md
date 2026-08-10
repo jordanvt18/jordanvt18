@@ -8,11 +8,11 @@
 <!-- HEADER -->
 <div align="center">
 
-<h1>Jordan Villón</h1>
-<h3>Data Scientist · ML Engineer · BI Developer</h3>
-<p><em>Python · PyTorch · Databricks · Power BI · SQL · Spark · Docker · R</em></p>
+<h1>Jordan Villón — Head of Data Science | Director, Machine Learning & Analytics</h1>
+<h3>Data Science Leader · ML Strategy · Analytics & BI Director</h3>
+<p><em>Strategy · Team Leadership · ML at Scale · Databricks · PyTorch · Power BI · SQL · MLOps</em></p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=18&duration=3000&pause=1000&color=00D9FF&center=true&width=720&lines=Senior+Data+Scientist+%7C+ML+Engineer+%7C+BI+Developer;Deep+Learning+%E2%80%A2+MLOps+%E2%80%A2+Geospatial+Analytics;Databricks+%E2%80%A2+PyTorch+%E2%80%A2+Power+BI+%E2%80%A2+Spark;5%2B+Years+%7C+5+Industries+%7C+12%2B+Projects+%7C+Open+to+Remote" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=18&duration=3000&pause=1000&color=00D9FF&center=true&width=720&lines=Senior+Data+Scientist+%7C+ML+Engineer+%7C+BI+Developer;Deep+Learning+%7C+MLOps+%7C+Analytics">
 
 <br/>
 
@@ -28,19 +28,20 @@
 
 ## 🎯 About Me
 
-**Senior Data Scientist & ML Engineer** with 5+ years building production-grade machine learning systems, BI platforms, and geospatial analytics solutions across 5 industries in Latin America. Certified in Databricks, DataCamp, and IBM specializations. Open to remote roles in Data Science, ML Engineering, or BI Development.
+Leader in Data Science and Machine Learning focused on building high-impact teams, defining product-driven ML strategy, and operationalizing models in production. I combine hands-on technical experience with stakeholder management and people leadership to deliver measurable business outcomes.
+
+- Strategic leadership: define analytics/ML roadmaps, prioritize use cases, and align technical delivery with executive objectives.
+- Team building & mentorship: hire, develop and scale multidisciplinary data science and engineering teams; implement career frameworks and hiring processes.
+- Delivery at scale: production ML, MLOps, Databricks-based data platforms, model governance, and cross-functional integration.
 
 ```python
 jordan = {
-    "title"      : "Senior Data Scientist | ML Engineer | BI Developer",
+    "title"      : "Head of Data Science | Director, Machine Learning & Analytics",
     "location"   : "Ecuador 🇪🇨 | UTC-5 | Open to Remote & Relocation",
-    "languages"  : ["Python", "R", "SQL", "JavaScript", "LaTeX"],
-    "ml_stack"   : ["PyTorch", "TensorFlow", "Scikit-learn", "XGBoost", "LightGBM"],
-    "data_eng"   : ["Databricks", "Apache Spark", "Pandas", "Polars", "ETL/ELT Pipelines"],
-    "bi_tools"   : ["Power BI", "Tableau", "Plotly", "Matplotlib"],
-    "devops"     : ["Docker", "Git", "CI/CD", "GitHub Actions", "MLflow"],
+    "responsibilities": ["Strategy", "Team Leadership", "Roadmaps", "Stakeholder Management"],
+    "tech_lead"  : ["PyTorch", "Databricks", "Spark", "Docker", "MLflow"],
+    "product_focus": ["ML at scale", "BI & self-service analytics", "Operational ML"],
     "industries" : ["Beverage & Spirits", "Fintech", "Food Distribution", "Real Estate", "Tech"],
-    "certs"      : ["Databricks Lakehouse", "DataCamp DS Professional", "IBM ML Specialization"],
     "contact"    : "jvto18@proton.me | linkedin.com/in/jordanvillontorres"
 }
 ```
@@ -160,7 +161,7 @@ Public Power BI dashboard analyzing **degree registrations** across all Ecuador 
 `Territorial Analysis` · `Open Data` · `BI`
 
 [![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/TESISGRADO)
-[![Live](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Dashboard-F2C811?style=flat-square)](https://app.powerbi.com/view?r=eyJrIjoiNTQxYTk2ZTktYWEzZS00OWI3LTg3YzAtZjJmZjBkZDc1YmJiIiwidCI6ImI3YWY4Y2FmLTgzZDgtNDY0NC04NWFlLTMxN2M1NDUyMjNjMSIsImMiOjR9)
+[![Live](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Dashboard-F2C811?style=flat-square)](https://app.powerbi.com/view?r=eyJrIjoiNTQxYTk2ZTktYWEzZS00OWI3LTg3YzAtZjJmZjBkZDc1YmJiIiwidCI6ImI)
 
 </td>
 </tr>
@@ -197,7 +198,7 @@ Public Power BI dashboard analyzing **degree registrations** across all Ecuador 
 [![Databricks](https://img.shields.io/badge/Databricks-Lakehouse%20Fundamentals%20%E2%86%97-FF3621?style=for-the-badge&logo=databricks&logoColor=white)](https://credentials.databricks.com)
 [![Databricks](https://img.shields.io/badge/Databricks-Generative%20AI%20Fundamentals%20%E2%86%97-FF3621?style=for-the-badge&logo=databricks&logoColor=white)](https://credentials.databricks.com)
 
-[![DataCamp](https://img.shields.io/badge/DataCamp-Data%20Scientist%20Professional%20%E2%86%97-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)](https://www.datacamp.com/certificate/DS0025390455337)
+[![DataCamp](https://img.shields.io/badge/DataCamp-Data%20Scientist%20Professional%20%E2%86%97-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)](https://www.datacamp.com/certificate/DS00)
 [![DataCamp](https://img.shields.io/badge/DataCamp-Data%20Analyst%20Associate%20%E2%86%97-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)](https://www.datacamp.com/portfolio/jordanvt18)
 [![DataCamp](https://img.shields.io/badge/DataCamp-AI%20Fundamentals%20%E2%86%97-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)](https://www.datacamp.com/portfolio/jordanvt18)
 
@@ -209,11 +210,11 @@ Public Power BI dashboard analyzing **degree registrations** across all Ecuador 
 
 <div align="center">
 
-[![IBM](https://img.shields.io/badge/IBM-Machine%20Learning%20%26%20TensorFlow%20%E2%86%97-054ADA?style=for-the-badge&logo=ibm&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/certifications/)
-[![WorldQuant](https://img.shields.io/badge/WorldQuant-Applied%20Data%20Science%20Lab%20%E2%86%97-1C3A72?style=for-the-badge&logo=academia&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/certifications/)
-[![CFI](https://img.shields.io/badge/CFI-Financial%20Analysis%20%26%20Modeling%20%E2%86%97-2563EB?style=for-the-badge&logo=academia&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/certifications/)
-[![GitHub](https://img.shields.io/badge/GitHub-Career%20Essentials%20%E2%86%97-161b22?style=for-the-badge&logo=github&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/certifications/)
-[![IBM](https://img.shields.io/badge/IBM-Enterprise%20Design%20Thinking%20%E2%86%97-054ADA?style=for-the-badge&logo=ibm&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/certifications/)
+[![IBM](https://img.shields.io/badge/IBM-Machine%20Learning%20%26%20TensorFlow%20%E2%86%97-054ADA?style=for-the-badge&logo=ibm&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/)
+[![WorldQuant](https://img.shields.io/badge/WorldQuant-Applied%20Data%20Science%20Lab%20%E2%86%97-1C3A72?style=for-the-badge&logo=academia&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/)
+[![CFI](https://img.shields.io/badge/CFI-Financial%20Analysis%20%26%20Modeling%20%E2%86%97-2563EB?style=for-the-badge&logo=academia&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/)
+[![GitHub](https://img.shields.io/badge/GitHub-Career%20Essentials%20%E2%86%97-161b22?style=for-the-badge&logo=github&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/)
+[![IBM](https://img.shields.io/badge/IBM-Enterprise%20Design%20Thinking%20%E2%86%97-054ADA?style=for-the-badge&logo=ibm&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/)
 
 </div>
 
@@ -221,15 +222,20 @@ Public Power BI dashboard analyzing **degree registrations** across all Ecuador 
 
 ---
 
-## 📈 Professional Impact
+## 📈 Leadership & Business Impact
 
 <div align="center">
 
-| 📅 5+ Years | 💡 12+ Projects | 🏭 5 Industries | 📈 Proven ROI |
-|:---:|:---:|:---:|:---:|
-| AB-InBev (Data Scientist) | Deep Learning | Beverage & Spirits | +150% ROI (AgriAI) |
-| AB-InBev (BI Analyst) | BI Dashboards | Fintech | +70% NPS Optimization |
-| ESPOL (Data Analyst) | Geospatial Analytics | Food Distribution | 25% cost reduction |
+| Role Focus | Scope & Outcomes |
+|:---|:---|
+| Strategy & Roadmaps | Set analytics/ML priorities across product lines and translated business goals into measurable ML KPIs. |
+| Organizational Leadership | Built and mentored data science and engineering teams, introduced hiring and onboarding processes, and promoted cross-functional collaboration. |
+| Delivery & ROI | Led projects that delivered meaningful business outcomes — from ROI uplift in agri-AI deployments to operational cost reductions through automated pipelines. |
+
+**Representative outcomes**
+- +150% ROI on agricultural detection product through ML-driven automation and improved decisioning.
+- Significant NPS and engagement gains from analytics-driven personalization and BI initiatives.
+- Measurable operational cost savings by productionizing pipelines and introducing efficient data engineering patterns.
 
 </div>
 
@@ -237,10 +243,10 @@ Public Power BI dashboard analyzing **degree registrations** across all Ecuador 
 
 ## 🎯 Currently
 
-- 🔬 **Building**: Advanced ML for agricultural disease detection (Ecuador)
-- 📊 **Studying**: Databricks Data Engineer Associate certification
-- 🌎 **Open to**: Remote Data Scientist / ML Engineer / BI Developer roles
-- 💬 **Reach me**: [jvto18@proton.me](mailto:jvto18@proton.me) · [LinkedIn](https://www.linkedin.com/in/jordanvillontorres)
+- 🔭 Leading the strategy and delivery of ML initiatives focused on production impact and scalability.
+- 🧭 Hiring & mentoring: growing a data team and establishing career paths and best practices.
+- 🌎 Open to Head / Director-level roles in Data Science, ML, Analytics and related leadership positions.
+- 💬 Reach me: [jvto18@proton.me](mailto:jvto18@proton.me) · [LinkedIn](https://www.linkedin.com/in/jordanvillontorres)
 
 ---
 
