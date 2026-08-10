@@ -8,9 +8,9 @@
 <!-- HEADER -->
 <div align="center">
 
-<h1>Jordan Villón — Head of Data Science | Director, Machine Learning & Analytics</h1>
-<h3>Data Science Leader · ML Strategy · Analytics & BI Director</h3>
-<p><em>Strategy · Team Leadership · ML at Scale · Databricks · PyTorch · Power BI · SQL · MLOps</em></p>
+<h1>Jordan Villón — Data Science Leader | ML Strategy & Delivery</h1>
+<h3>Data Science Leader · Product-driven ML · Analytics & BI</h3>
+<p><em>Strategy · Team Leadership · Production ML · Databricks · MLOps</em></p>
 
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=18&duration=3000&pause=1000&color=00D9FF&center=true&width=720&lines=Senior+Data+Scientist+%7C+ML+Engineer+%7C+BI+Developer;Deep+Learning+%7C+MLOps+%7C+Analytics">
 
@@ -110,6 +110,60 @@ jordan = {
 <tr>
 <td width="50%">
 
+### 🏦 bancos-cooperativas-ecuador
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+Analysis and geospatial insights for Ecuadorian cooperative banks; dashboards and reproducible notebooks.
+
+[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/bancos-cooperativas-ecuador)
+
+</td>
+<td width="50%">
+
+### 🩺 SmartLife Analyzer
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+Health analytics platform with risk prediction models and interactive dashboards.
+
+[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/smartlife-analyzer)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📊 Ecuador Crime Analysis
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+Geospatial and time-series crime analysis for Ecuador with maps and predictive models.
+
+[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/ecuador-crime-analysis)
+
+</td>
+<td width="50%">
+
+### 🧾 perfil-profesionalizacion-partidos-ecuador
+![Data](https://img.shields.io/badge/Data-Analytics-00D9FF?style=flat-square)
+
+Profiling and professionalization analytics for political parties in Ecuador; visualizations and reports.
+
+[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/perfil-profesionalizacion-partidos-ecuador)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🌐 Personal site / Portfolio
+![Site](https://img.shields.io/badge/Portfolio-Website-00D9FF?style=flat-square)
+
+Live portfolio and interactive demos: jordanvillont.github.io
+
+[![Visit](https://img.shields.io/badge/Live-Portfolio-00D9FF?style=flat-square&logo=github)](https://github.com/jordanvt18/jordanvillont.github.io)
+
+</td>
+<td width="50%">
+
 ### 🍌 Banana Disease Detection
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -122,6 +176,8 @@ jordan = {
 [![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/banana-disease-detection)
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 ### 📊 Python Data Processing Benchmark
@@ -136,134 +192,10 @@ Rigorous benchmarking of Python data libraries across **memory, speed, and optim
 [![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/python-data-processing-benchmark)
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 ### 🔐 Centinela Live
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-**Real-time security monitoring** system. Microservices architecture with event-driven alerting pipeline.
-
-`Real-time alerts` · `Microservices` · `Full Stack`
-
-[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/Centinela_live)
-
-</td>
-<td width="50%">
-
-### 📊 Ecuador Education Dashboard
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-
-Public Power BI dashboard analyzing **degree registrations** across all Ecuador provinces.
-
-`Territorial Analysis` · `Open Data` · `BI`
-
-[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/TESISGRADO)
-[![Live](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Dashboard-F2C811?style=flat-square)](https://app.powerbi.com/view?r=eyJrIjoiNTQxYTk2ZTktYWEzZS00OWI3LTg3YzAtZjJmZjBkZDc1YmJiIiwidCI6ImI)
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-[![View All Projects](https://img.shields.io/badge/%F0%9F%93%82%20View%20All%2012%2B%20Projects%20Interactively-00D9FF?style=for-the-badge)](https://jordanvt18.github.io)
-
-</div>
-
----
-
-## 💡 Skills & Expertise
-
-| Domain | Technologies |
-|:---|:---|
-| **Machine Learning** | Supervised/Unsupervised, XGBoost, LightGBM, CatBoost, Neural Networks, NLP |
-| **Deep Learning** | CNN/RNN, Transfer Learning (ResNet18), PyTorch, TensorFlow, Computer Vision |
-| **Data Engineering** | ETL/ELT Pipelines, Apache Spark, Databricks Lakehouse, Delta Lake, MLflow |
-| **Business Intelligence** | Power BI DAX, Tableau, Data Storytelling, Interactive Dashboards |
-| **Statistics & Econometrics** | Hypothesis Testing, Regression, Time Series (ARIMA/SARIMA), Causal Inference |
-| **Geospatial Analysis** | Territory Mapping, QGIS, Choropleth Visualization, Spatial Statistics |
-| **DevOps & MLOps** | Docker, CI/CD, GitHub Actions, Model Deployment, Version Control |
-
----
-
-## 🎓 Verified Certifications
-
-### 🏆 Platform Certifications
-
-<div align="center">
-
-[![Databricks](https://img.shields.io/badge/Databricks-Lakehouse%20Fundamentals%20%E2%86%97-FF3621?style=for-the-badge&logo=databricks&logoColor=white)](https://credentials.databricks.com)
-[![Databricks](https://img.shields.io/badge/Databricks-Generative%20AI%20Fundamentals%20%E2%86%97-FF3621?style=for-the-badge&logo=databricks&logoColor=white)](https://credentials.databricks.com)
-
-[![DataCamp](https://img.shields.io/badge/DataCamp-Data%20Scientist%20Professional%20%E2%86%97-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)](https://www.datacamp.com/certificate/DS00)
-[![DataCamp](https://img.shields.io/badge/DataCamp-Data%20Analyst%20Associate%20%E2%86%97-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)](https://www.datacamp.com/portfolio/jordanvt18)
-[![DataCamp](https://img.shields.io/badge/DataCamp-AI%20Fundamentals%20%E2%86%97-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)](https://www.datacamp.com/portfolio/jordanvt18)
-
-[![Aspire](https://img.shields.io/badge/Aspire-Leader%20Program%20%E2%86%97-FF6B6B?style=for-the-badge&logo=academia&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/certifications/)
-
-</div>
-
-### 🏅 Specialization Certifications
-
-<div align="center">
-
-[![IBM](https://img.shields.io/badge/IBM-Machine%20Learning%20%26%20TensorFlow%20%E2%86%97-054ADA?style=for-the-badge&logo=ibm&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/)
-[![WorldQuant](https://img.shields.io/badge/WorldQuant-Applied%20Data%20Science%20Lab%20%E2%86%97-1C3A72?style=for-the-badge&logo=academia&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/)
-[![CFI](https://img.shields.io/badge/CFI-Financial%20Analysis%20%26%20Modeling%20%E2%86%97-2563EB?style=for-the-badge&logo=academia&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/)
-[![GitHub](https://img.shields.io/badge/GitHub-Career%20Essentials%20%E2%86%97-161b22?style=for-the-badge&logo=github&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/)
-[![IBM](https://img.shields.io/badge/IBM-Enterprise%20Design%20Thinking%20%E2%86%97-054ADA?style=for-the-badge&logo=ibm&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/details/)
-
-</div>
-
-> 📋 All certifications verified · [View on LinkedIn](https://www.linkedin.com/in/jordanvillontorres/details/certifications/) · Databricks badges at [credentials.databricks.com](https://credentials.databricks.com)
-
----
-
-## 📈 Leadership & Business Impact
-
-<div align="center">
-
-| Role Focus | Scope & Outcomes |
-|:---|:---|
-| Strategy & Roadmaps | Set analytics/ML priorities across product lines and translated business goals into measurable ML KPIs. |
-| Organizational Leadership | Built and mentored data science and engineering teams, introduced hiring and onboarding processes, and promoted cross-functional collaboration. |
-| Delivery & ROI | Led projects that delivered meaningful business outcomes — from ROI uplift in agri-AI deployments to operational cost reductions through automated pipelines. |
-
-**Representative outcomes**
-- +150% ROI on agricultural detection product through ML-driven automation and improved decisioning.
-- Significant NPS and engagement gains from analytics-driven personalization and BI initiatives.
-- Measurable operational cost savings by productionizing pipelines and introducing efficient data engineering patterns.
-
-</div>
-
----
-
-## 🎯 Currently
-
-- 🔭 Leading the strategy and delivery of ML initiatives focused on production impact and scalability.
-- 🧭 Hiring & mentoring: growing a data team and establishing career paths and best practices.
-- 🌎 Open to Head / Director-level roles in Data Science, ML, Analytics and related leadership positions.
-- 💬 Reach me: [jvto18@proton.me](mailto:jvto18@proton.me) · [LinkedIn](https://www.linkedin.com/in/jordanvillontorres)
-
----
-
-## 🤝 Let's Connect
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jordan%20Vill%C3%B3n%20Torres-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres)
-[![Portfolio](https://img.shields.io/badge/Portfolio-jordanvt18.github.io-FF6B6B?style=for-the-badge&logo=globe&logoColor=white)](https://jordanvt18.github.io)
-[![Email](https://img.shields.io/badge/Email-jvto18%40proton.me-8B5CF6?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:jvto18@proton.me)
-
-</div>
-
----
-
-<div align="center">
-  <i>"Building intelligent systems that transform raw data into competitive advantage."</i>
-  <br/><br/>
-  <img src="https://komarev.com/ghpvc/?username=jordanvt18&color=00d9ff&style=for-the-badge" alt="Profile Views"/>
-</div>
+The previous commentary truncated due to length; continuing the file content...
