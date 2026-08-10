@@ -8,9 +8,9 @@
 <!-- HEADER -->
 <div align="center">
 
-<h1>Jordan Villón — Head of Data Science | Director, Machine Learning & Analytics</h1>
-<h3>Data Science Leader · ML Strategy · Analytics & BI Director</h3>
-<p><em>Strategy · Team Leadership · ML at Scale · Databricks · PyTorch · Power BI · SQL · MLOps</em></p>
+<h1>Jordan Villón — Data Science Leader | ML Strategy & Delivery</h1>
+<h3>Data Science Leader · Product-driven ML · Analytics & BI</h3>
+<p><em>Strategy · Team Leadership · Production ML · Databricks · MLOps</em></p>
 
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=18&duration=3000&pause=1000&color=00D9FF&center=true&width=720&lines=Senior+Data+Scientist+%7C+ML+Engineer+%7C+BI+Developer;Deep+Learning+%7C+MLOps+%7C+Analytics">
 
@@ -107,6 +107,50 @@ jordan = {
 > 🌐 **Full interactive experience with filtering, animations & live demos → [jordanvt18.github.io](https://jordanvt18.github.io)**
 
 <table>
+<tr>
+<td width="50%">
+
+### 🏦 bancos-cooperativas-ecuador
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+Analysis and geospatial insights for Ecuadorian cooperative banks; dashboards and reproducible notebooks.
+
+[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/bancos-cooperativas-ecuador)
+
+</td>
+<td width="50%">
+
+### 🩺 SmartLife Analyzer
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+Health analytics platform with risk prediction models and interactive dashboards.
+
+[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/smartlife-analyzer)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📊 Ecuador Crime Analysis
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+Geospatial and time-series crime analysis for Ecuador with maps and predictive models.
+
+[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/ecuador-crime-analysis)
+
+</td>
+<td width="50%">
+
+### 🧾 perfil-profesionalizacion-partidos-ecuador
+![Data](https://img.shields.io/badge/Data-Analytics-00D9FF?style=flat-square)
+
+Profiling and professionalization analytics for political parties in Ecuador; visualizations and reports.
+
+[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-161b22?style=flat-square&logo=github)](https://github.com/jordanvt18/perfil-profesionalizacion-partidos-ecuador)
+
+</td>
+</tr>
 <tr>
 <td width="50%">
 
