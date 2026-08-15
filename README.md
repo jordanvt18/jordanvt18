@@ -7,7 +7,7 @@
 </p>
 
 <h1 align="center">👋 Hello, I'm Jordán Villón</h1>
-<h3 align="center">Principal Data Scientist | Lead Data Scientist | Director of Data | Data Manager</h3>
+<h3 align="center">Principal Data Scientist | Lead Data Scientist |Data Strategy </h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/MLOps-Enabled-8b5cf6?style=for-the-badge" alt="MLOps" />
