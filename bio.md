@@ -1,64 +1,35 @@
-# bio.md — Variantes de biografía profesional
+# bio.md — Professional Bio Variants
 
-> 5 variantes para LinkedIn, GitHub, conferencias y networking. Todas conectan el background en
-> Matemáticas/Estadística con la toma de decisiones en entornos de alta incertidumbre.
-> Ajusta los números entre paréntesis según tu caso real antes de publicar.
-
----
-
-## 1. LinkedIn — "Acerca de" (versión completa, orientada a liderazgo)
-
-Principal Data Scientist and team lead with a foundation in Statistics and Mathematics, specialized
-in **Causal Inference**, **Econometric Modeling**, and **Reinforcement Learning** applied to
-business decisions under high uncertainty. I lead cross-functional teams of data scientists and ML
-engineers through the full lifecycle — from **strategic roadmapping** and hypothesis design to
-**production-grade** systems with measurable KPIs (latency <80 ms p95, +150% ROI on computer-vision
-detection, 7–14 day early warnings in aquaculture). My work spans spatial analytics, forecasting at
-scale, and **scalable ML systems** (FastAPI, Docker, Databricks/Spark, MLflow) for sectors as
-diverse as urban valuation, agribusiness, and public governance. I am equally committed to
-**mentorship**: growing analysts into independent scientists who own problems end-to-end.
+> 5 variants for LinkedIn, GitHub, conferences, and networking.
+> All versions connect my Statistics/Mathematics foundation with decision-making in high-uncertainty environments.
+> Update numbers in parentheses based on your latest verified metrics before publishing.
 
 ---
 
-## 2. LinkedIn — Resumen corto (orientado a reclutadores)
+## 1. LinkedIn — About (full version, leadership-oriented)
 
-Statistician and Principal Data Scientist turning uncertainty into decisions: **Causal Inference**,
-**Econometric Modeling**, and **Reinforcement Learning** for pricing, forecasting, and dynamic
-optimization. I design **scalable ML systems** and lead them to production — with **cross-functional
-leadership** across engineering, product, and business teams. Background in Mathematics and
-Statistics applied to high-uncertainty environments (real estate valuation, aquaculture biosecurity,
-public governance indices). Open to Principal / Sr. Data Scientist, Lead Data Science, and Head of
-Data roles (remote or hybrid).
+I am a Principal Data Scientist and team lead with a foundation in Statistics and Mathematics. I specialize in **causal inference**, **econometric modeling**, and **reinforcement learning** for high-uncertainty business decisions. I lead cross-functional teams of data scientists and ML engineers across the full lifecycle—from **strategic roadmap** and hypothesis design to **production-grade** systems with measurable KPIs (latency <80 ms p95, +150% ROI in computer-vision detection, 7–14 day early warnings in aquaculture). My work covers spatial analytics, forecasting at scale, and **scalable ML systems** (FastAPI, Docker, Databricks/Spark, MLflow) across urban valuation, agribusiness, and public governance. I also invest deeply in **mentorship**, helping analysts grow into independent scientists who own problems end to end.
 
 ---
 
-## 3. GitHub — Bio técnica
+## 2. LinkedIn — Short summary (recruiter-oriented)
 
-Principal Data Scientist · Stats & Math foundation. I build **production-grade** ML systems where
-econometrics, **causal inference**, and **reinforcement learning** meet business KPIs. Hands-on:
-Python, PyTorch, Statsmodels, LightGBM. Architecture: FastAPI, Docker, Spark, MLflow, CI/CD.
-Passionate about **mentorship** and **strategic roadmapping** — from hypothesis to monitored model.
-Featured: urban valuation radar, DL+RL shrimp biosecurity, banana disease detection (+150% ROI),
-municipal transparency index (221 municipalities).
+I turn uncertainty into decisions using **causal inference**, **econometric modeling**, and **reinforcement learning** for pricing, forecasting, and dynamic optimization. I design **scalable ML systems** and lead them into production through **cross-functional leadership** across engineering, product, and business teams. I apply my Statistics and Mathematics background to high-uncertainty environments such as real estate valuation, aquaculture biosecurity, and public governance indices. I am open to Lead Data Scientist, Principal Data Scientist, Director of Data, and Data Manager roles (remote or hybrid).
 
 ---
 
-## 4. Conferencias / Talks — Intro del speaker
+## 3. GitHub — Technical bio
 
-"Hi, I'm Jordán Villón. My training is in Statistics and Mathematics, and for the last years I've
-focused on the uncomfortable intersection where most models fail: **decision-making under
-uncertainty**. I lead data science teams that build **production-grade** systems using **causal
-inference**, **econometric modeling**, and **reinforcement learning** — from predicting urban land
-value in Quito and Guayaquil to preventing disease outbreaks in shrimp farms weeks before they
-happen. Today I want to show you how to connect rigorous modeling with measurable business KPIs,
-and why **cross-functional leadership** and **mentorship** matter as much as the math."
+I am a Principal Data Scientist with a Statistics and Mathematics foundation. I build **production-grade** ML systems where econometrics, **causal inference**, and **reinforcement learning** connect directly to business KPIs. Hands-on stack: Python, PyTorch, Statsmodels, LightGBM. Architecture stack: FastAPI, Docker, Spark, MLflow, CI/CD. I care about **mentorship** and **strategic roadmapping** from hypothesis to monitored model. Featured work includes an urban valuation radar, a DL+RL shrimp biosecurity system, banana disease detection (+150% ROI), and a transparency index across 221 municipalities.
 
 ---
 
-## 5. Elevator pitch / Networking (30 segundos)
+## 4. Conferences / Talks — Speaker intro
 
-"Mathematician by training, data scientist by obsession. I help companies make better decisions
-under uncertainty using **causal inference** and **reinforcement learning** — not just predictions.
-I've led teams that shipped **scalable ML systems** in production with real ROI, and I care deeply
-about **strategic roadmapping** and **mentorship**. If you're hiring a Principal or Lead Data
-Scientist who speaks both 'statistical rigor' and 'business KPI', we should talk."
+"Hi, I’m Jordán Villón. My training is in Statistics and Mathematics, and I focus on one of the most demanding areas in analytics: **decision-making under uncertainty**. I lead data science teams that build **production-grade** systems with **causal inference**, **econometric modeling**, and **reinforcement learning**—from predicting urban land value in Quito and Guayaquil to preventing disease outbreaks in shrimp farms weeks in advance. Today, I will share how I connect rigorous modeling with measurable business KPIs, and why **cross-functional leadership** and **mentorship** are as important as the math."
+
+---
+
+## 5. Elevator pitch / Networking (30 seconds)
+
+"I am a mathematician by training and a data scientist by practice. I help organizations make better decisions under uncertainty using **causal inference** and **reinforcement learning**, not just predictive models. I have led teams that shipped **scalable ML systems** in production with measurable ROI, and I prioritize **strategic roadmap ownership** and **mentorship**. If you are hiring a Lead Data Scientist, Principal Data Scientist, Director of Data, or Data Manager who speaks both statistical rigor and business KPI, I would be glad to connect."

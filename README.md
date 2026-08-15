@@ -1,13 +1,13 @@
 <!--
-  SEO: Principal Data Scientist, Causal Inference, Econometrics, Reinforcement Learning,
-  Scalable ML Systems, MLOps, Ecuador, Remote, Leadership
+  SEO: Lead Data Scientist, Principal Data Scientist, Director of Data, Data Manager,
+  Causal Inference, Econometrics, Reinforcement Learning, Scalable ML Systems, MLOps
 -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=3200&pause=800&color=00D9FF&center=true&width=820&lines=Principal+Data+Scientist+%7C+Lead;Bridging+Econometrics%2C+Causal+Inference%2C+RL+%26+Business+Strategy" alt="Headline" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=3200&pause=800&color=00D9FF&center=true&width=920&lines=Principal+Data+Scientist+%7C+Data+Leadership;I+turn+complex+data+into+measurable+business+decisions" alt="Headline" />
 </p>
 
-<h1 align="center">👋 Hola, soy Jordán Villón</h1>
-<h3 align="center">Principal Data Scientist | Lead | Bridging Econometrics, Causal Inference, RL &amp; Business Strategy</h3>
+<h1 align="center">👋 Hi, I'm Jordán Villón</h1>
+<h3 align="center">Principal Data Scientist | Lead Data Scientist | Director of Data | Data Manager</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/MLOps-Enabled-8b5cf6?style=for-the-badge" alt="MLOps" />
@@ -23,87 +23,90 @@
 
 ---
 
-## 💡 Declaración de valor
+## About Me
 
-> Mi filosofía: **los modelos no venden, las decisiones sí.** Conecto econometría causal y
-> aprendizaje por refuerzo con KPIs de negocio medibles — cuantifico incertidumbre, la gestiono
-> con rigor estadístico y escalo equipos y sistemas para que el valor llegue a producción.
+I lead data science initiatives that connect rigorous modeling with measurable business outcomes. I work across strategy, experimentation, and production delivery, and I partner with engineering, product, and executive stakeholders to turn uncertainty into better decisions.
 
-Formado en **Estadística y Matemáticas**, trabajo en la intersección entre la inferencia causal,
-la optimización dinámica y la ingeniería de ML en producción. Cada proyecto que lidero parte de
-una hipótesis económica explícita, se valida con tests de estabilidad y termina como un sistema
-monitoreado — no como un notebook.
+I am targeting roles where I can drive impact at scale as a **Lead Data Scientist**, **Principal Data Scientist**, **Director of Data**, or **Data Manager**.
 
 ---
 
-## 🎯 Áreas estratégicas
+## 💡 Value Statement
 
-| Área | Qué hago |
+> I focus on decisions, not just models. I combine causal econometrics, machine learning, and reinforcement learning with clear business KPIs to deliver production impact.
+
+With a foundation in **Statistics and Mathematics**, I build systems that start with an explicit business hypothesis, pass stability validation, and ship as monitored production services.
+
+---
+
+## 🎯 Strategic Focus Areas
+
+| Area | What I deliver |
 |---|---|
-| **Causal Inference for Pricing & Economics** | Modelos hedónicos, diferencias-en-diferencias, IV, diseño de experimentos para decisiones de precio y política |
-| **Forecasting at Scale** | Series temporales (ARIMA/SARIMA, GAMs, DL) con cuantificación de incertidumbre y conformal prediction |
-| **RL for Dynamic Optimization** | Agentes PPO/DDQN para bioseguridad, operaciones y asignación de recursos bajo incertidumbre |
-| **ML System Design** | Arquitecturas ETL→Feature Store→API→Dashboard; monitoreo de drift, reentrenamiento y gobernanza |
-| **Spatial Analytics** | Rejillas H3, econometría espacial (Moran, LISA), mapas de calor y geoestadística aplicada |
+| **Causal Inference for Pricing & Economics** | Hedonic models, difference-in-differences, IV, and experiment design for pricing and policy decisions |
+| **Forecasting at Scale** | Time-series pipelines (ARIMA/SARIMA, GAMs, DL) with uncertainty quantification and conformal prediction |
+| **RL for Dynamic Optimization** | PPO/DDQN agents for biosecurity, operations, and resource allocation under uncertainty |
+| **ML System Design** | ETL → Feature Store → API → Dashboard architectures with drift monitoring and governance |
+| **Spatial Analytics** | H3 grids, spatial econometrics (Moran, LISA), and geostatistics for territory-level decisions |
 
 ---
 
-## 🏆 Logros con métricas
+## 🏆 Results with Metrics
 
-- **Liderazgo técnico:** he liderado equipos de 8+ científicos de datos e ingenieros de ML, desde el roadmapping estratégico hasta la entrega en producción.
-- **Latencia de producción:** modelos en servicio con **latencia p95 < 80 ms** y disponibilidad **99.9%**.
-- **ROI medible:** **+150% de ROI** en un sistema de detección de enfermedades con visión por computador; **−25% de uso de pesticidas** por detección temprana.
-- **Alertas tempranas:** brotes detectados **7–14 días antes** en operaciones acuícolas, con pérdidas evitadas estimadas en **~$1.2M**.
-- **Impacto público:** índices de gobernanza con cobertura de **221 municipios**, usados por ciudadanía, periodistas y tomadores de decisión.
-- **Exactitud de valoración:** reducción de **18% del error** frente a modelos hedónicos baseline en valorización urbana.
+- I have led teams of 8+ data scientists and ML engineers from strategic roadmap to production delivery.
+- I have deployed production models with **p95 latency < 80 ms** and **99.9% availability**.
+- I delivered **+150% ROI** in a computer vision disease detection system and **−25% pesticide usage** through earlier detection.
+- I enabled **7–14 day early warnings** in aquaculture operations, with estimated avoided losses of **~$1.2M**.
+- I built public governance indices covering **221 municipalities** for citizens, journalists, and decision-makers.
+- I achieved an **18% error reduction** vs. baseline hedonic models in urban valuation.
 
 ---
 
-## 🧰 Stack diferenciado
+## 🧰 Differentiated Stack
 
-| **Hands-on (modelado)** | **Arquitectura / MLOps** |
+| **Hands-on (Modeling)** | **Architecture / MLOps** |
 |---|---|
-| Python, PyTorch, scikit-learn | MLflow (experimentos y registro de modelos) |
-| Statsmodels (econometría, causalidad) | Databricks + Apache Spark (procesamiento a escala) |
-| LightGBM / XGBoost (quantile regression) | Airflow / scripts ETL versionados |
+| Python, PyTorch, scikit-learn | MLflow (experiments and model registry) |
+| Statsmodels (econometrics and causal inference) | Databricks + Apache Spark (scale processing) |
+| LightGBM / XGBoost (quantile regression) | Airflow / versioned ETL scripts |
 | Stable Baselines3 (RL) | Docker + docker-compose, CI/CD |
-| Pandas / Polars / data.table | FastAPI, Redis, monitoreo de drift (PSI) |
+| Pandas / Polars / data.table | FastAPI, Redis, drift monitoring (PSI) |
 
 ---
 
 ## ⭐ Featured Projects
 
-| Proyecto | Qué resuelve | Impacto | Stack |
-|---|---|---|---|
-| [Radar de Valorización Urbana](https://github.com/jordanvt18/radar-valorizacion-urbana) | Predicción de valorización inmobiliaria para Quito y Guayaquil con intervalos de confianza | −18% error vs. modelo hedónico baseline; soporte a decisiones de inversión | ETL geoespacial (H3), LightGBM quantile, CNN+MLP, FastAPI, Leaflet/Plotly |
-| [Bioseguridad Camarón AI](https://github.com/jordanvt18/bioseguridad-camaron-AI) | Predicción de brotes en piscinas camaroneras con DL+RL y simulador económico | Alertas 7–14 días antes; pérdidas evitadas ~$1.2M | LSTM/Transformer, Autoencoder, PPO, FastAPI, Docker |
-| [Banana Disease Detection](https://github.com/jordanvt18/banana-disease-detection) | Detección de enfermedades del banano con visión por computador | +150% ROI; −25% pesticidas; 5 s/imagen | PyTorch ResNet18, transfer learning, ONNX, Docker |
-| [Transparency Index Ecuador](https://github.com/jordanvt18/transparency-index-ecuador) | Índice de transparencia municipal y comparador de municipios pares | Cobertura 221 municipios (2025); detección de anomalías en contratación | ETL, índice compuesto, FastAPI, frontend estático |
-| [Perfil Profesionalización Partidos](https://github.com/jordanvt18/perfil-profesionalizacion-partidos-ecuador) | Índice de profesionalización de candidatos y partidos (Elecciones 2026) | Índice 0–100 por candidato, partido y provincia; análisis reproducible | ETL, NLP, FastAPI, frontend interactivo, CI/CD |
-| [Python Data Processing Benchmark](https://github.com/jordanvt18/python-data-processing-benchmark) | Benchmark reproducible: Pandas vs. Polars vs. data.table | Evidencia empírica de tiempo y memoria para decisiones de stack | Python, notebooks, pytest |
-| [Bancos & Cooperativas Ecuador](https://github.com/jordanvt18/bancos-cooperativas-ecuador) | Comparador de seguridad financiera para bancos y cooperativas | Educación financiera ciudadana con indicadores auditables | HTML/JS, pipelines de datos, GitHub Pages |
-| [SmartLife Analyzer](https://github.com/jordanvt18/smartlife-analyzer) | Plataforma de analítica de salud con retraining de modelos | Riesgo personalizado y validación holdout | Node.js, dashboards estáticos |
-| [Ecuador Crime Analysis](https://github.com/jordanvt18/ecuador-crime-analysis) | Analítica espacial y series temporales de criminalidad (2014–2026) | 43,976 registros oficiales; ARIMA + índices compuestos | Python, econometría espacial, Dash |
-| [jordanvillont.github.io](https://github.com/jordanvt18/jordanvillont.github.io) | Portafolio profesional con case studies y demos | Posicionamiento ejecutivo y técnico | Jekyll (Minimal Mistakes), GitHub Actions |
+| Visual | Project | What it solves | Impact | Stack |
+|---|---|---|---|---|
+| ![Urban](https://img.shields.io/badge/Geo-AI-00D9FF?style=flat-square) | [Urban Valuation Radar](https://github.com/jordanvt18/radar-valorizacion-urbana) | Predicts real estate appreciation for Quito and Guayaquil with confidence intervals | 18% lower error vs. baseline hedonic model; supports investment decisions | Geospatial ETL (H3), LightGBM quantile, CNN+MLP, FastAPI, Leaflet/Plotly |
+| ![Shrimp](https://img.shields.io/badge/RL-Biosecurity-8B5CF6?style=flat-square) | [Shrimp Biosecurity AI](https://github.com/jordanvt18/bioseguridad-camaron-AI) | Predicts disease outbreaks in shrimp ponds with DL+RL and an economic simulator | 7–14 day early warnings; estimated avoided losses ~$1.2M | LSTM/Transformer, Autoencoder, PPO, FastAPI, Docker |
+| ![Banana](https://img.shields.io/badge/CV-Disease%20Detection-2EA44F?style=flat-square) | [Banana Disease Detection](https://github.com/jordanvt18/banana-disease-detection) | Detects banana crop diseases with computer vision | +150% ROI; −25% pesticide use; 5 s/image | PyTorch ResNet18, transfer learning, ONNX, Docker |
+| ![Transparency](https://img.shields.io/badge/Public%20Data-Index-1F6FEB?style=flat-square) | [Transparency Index Ecuador](https://github.com/jordanvt18/transparency-index-ecuador) | Municipal transparency index with peer benchmarking | Coverage of 221 municipalities (2025); procurement anomaly detection | ETL, composite index, FastAPI, static frontend |
+| ![Politics](https://img.shields.io/badge/NLP-Elections-FF6B9D?style=flat-square) | [Political Professionalization Profile](https://github.com/jordanvt18/perfil-profesionalizacion-partidos-ecuador) | Professionalization index for candidates and political parties (Elections 2026) | 0–100 index by candidate, party, and province; reproducible analysis | ETL, NLP, FastAPI, interactive frontend, CI/CD |
+| ![Benchmark](https://img.shields.io/badge/Benchmark-Data%20Eng-E25A1C?style=flat-square) | [Python Data Processing Benchmark](https://github.com/jordanvt18/python-data-processing-benchmark) | Reproducible benchmark: Pandas vs. Polars vs. data.table | Evidence-based time and memory trade-offs for stack decisions | Python, notebooks, pytest |
+| ![Finance](https://img.shields.io/badge/Finance-Risk%20Comparison-009688?style=flat-square) | [Banks & Cooperatives Ecuador](https://github.com/jordanvt18/bancos-cooperativas-ecuador) | Financial safety comparator for banks and cooperatives | Citizen-oriented financial education with auditable indicators | HTML/JS, data pipelines, GitHub Pages |
+| ![Health](https://img.shields.io/badge/Health-Analytics-6F42C1?style=flat-square) | [SmartLife Analyzer](https://github.com/jordanvt18/smartlife-analyzer) | Health analytics platform with model retraining workflows | Personalized risk scoring and holdout validation | Node.js, static dashboards |
+| ![Crime](https://img.shields.io/badge/Crime-Spatial%20Analytics-DC2626?style=flat-square) | [Ecuador Crime Analysis](https://github.com/jordanvt18/ecuador-crime-analysis) | Spatial analytics and time-series modeling of crime (2014–2026) | 43,976 official records; ARIMA + composite indices | Python, spatial econometrics, Dash |
+| ![Portfolio](https://img.shields.io/badge/Portfolio-Executive%20Brand-111827?style=flat-square) | [jordanvillont.github.io](https://github.com/jordanvt18/jordanvillont.github.io) | Professional portfolio with case studies and demos | Stronger executive and technical positioning | Jekyll (Minimal Mistakes), GitHub Actions |
 
 ---
 
-## 🧭 Cómo trabajo
+## 🧭 How I Work
 
 ```mermaid
 flowchart LR
-    A["Problema de negocio"] --> B["Hipótesis económica / causal"]
-    B --> C["Datos + ETL versionado"]
-    C --> D["Modelado con rigor estadístico"]
-    D --> E["Validación y estabilidad"]
-    E --> F["Producción + monitoreo"]
-    F --> G["Decisión con KPI medible"]
+    A["Business problem"] --> B["Economic / causal hypothesis"]
+    B --> C["Data + versioned ETL"]
+    C --> D["Statistically rigorous modeling"]
+    D --> E["Validation and stability checks"]
+    E --> F["Production deployment + monitoring"]
+    F --> G["Decision with measurable KPI"]
     G --> A
 ```
 
 ---
 
-## 📫 Conectemos
+## 📫 Let's Connect
 
 <p align="center">
   <a href="https://www.linkedin.com/in/jordanvillontorres" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -112,5 +115,5 @@ flowchart LR
 </p>
 
 <p align="center">
-  <i>Construyo sistemas de decisión que transforman incertidumbre en ventaja competitiva.</i>
+  <i>I build decision systems that transform uncertainty into competitive advantage.</i>
 </p>
