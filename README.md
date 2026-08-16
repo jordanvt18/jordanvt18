@@ -1,4 +1,4 @@
-# Jordan Villon Torres
+# Jordan V
 
 **Senior Data & AI Professional · MSc Economics** — Guayaquil, Ecuador
 
