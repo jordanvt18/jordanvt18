@@ -1,4 +1,4 @@
-# Jordan Villon Torres
+# Jordan Villon
 
 **Data & AI** — Guayaquil, Ecuador
 
