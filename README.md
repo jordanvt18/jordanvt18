@@ -2,11 +2,11 @@
 
 **Data & AI** — Guayaquil, Ecuador
 
-I design and build statistical and machine-learning systems for high-stakes decisions: causal inference for investment decisions, credit-risk modeling, demand forecasting, and end-to-end ML products running in production.
+I design and build statistical and machine-learning systems for high-stakes decisions: causal inference for investment decisions, credit-risk modeling, demand forecasting, and end-to-end ML product engineering.
 
 Sectors: Banking · FMCG · Retail · Agriculture · Public Sector (Ecuador & LatAm)
 
-[LinkedIn](https://www.linkedin.com/in/jordanvillontorres/) · [Portfolio](https://jordanvillont.github.io/)
+[LinkedIn](https://www.linkedin.com/in/jordanvillontorres/) · [Portfolio](https://jordanvt18.github.io/jordanvillont.github.io/)
 
 ## What I do
 
@@ -20,14 +20,14 @@ Sectors: Banking · FMCG · Retail · Agriculture · Public Sector (Ecuador & La
 
 | System | What it does |
 |---|---|
-| **[Radar de Valorización Urbana](https://github.com/jordanvt18/radar-valorizacion-urbana)** | Real-estate appreciation prediction for Quito & Guayaquil — geospatial ETL, multimodal ML, FastAPI backend, Leaflet/Plotly frontend. |
-| **[Commercial Causal Evals](https://github.com/jordanvt18/commercial-causal-evals)** | Evaluation harness for an LLM agent grounded in causal inference (sharp regression discontinuity): golden dataset with frozen ground truth, numerical-fidelity and methodological-honesty metrics (DeepEval, LangGraph, Langfuse). |
-| **[Banana Disease Detection](https://github.com/jordanvt18/banana-disease-detection)** | Deep learning (PyTorch, ResNet18 transfer learning, OpenCV) for plant-disease detection — agriculture CV applied to Ecuador's key export crop. |
+| **[Radar de Valorización Urbana](https://github.com/jordanvt18/radar-valorizacion-urbana)** | Real-estate appreciation prediction for Quito & Guayaquil — geospatial ETL, multimodal ML, FastAPI. |
+| **[Commercial Causal Evals](https://github.com/jordanvt18/commercial-causal-evals)** | Evaluation harness for an LLM agent grounded in causal inference (sharp regression discontinuity): golden dataset, fidelity & honesty metrics. |
+| **[Banana Disease Detection](https://github.com/jordanvt18/banana-disease-detection)** | Deep learning (PyTorch, ResNet18 transfer learning, OpenCV) for plant-disease detection — agriculture CV. |
 | **[Ecuador Crime Analysis](https://github.com/jordanvt18/ecuador-crime-analysis)** | Spatial analytics, ARIMA forecasting and composite indices on crime data (2018–2026), with an interactive dashboard. |
 
 ## Applied research & public-interest data
 
-- **[Bioseguridad Camarón AI](https://github.com/jordanvt18/bioseguridad-camaron-AI)** — shrimp-outbreak prediction combining deep learning and reinforcement learning, with ETL pipeline, FastAPI service and operational dashboard.
+- **[Bioseguridad Camarón AI](https://github.com/jordanvt18/bioseguridad-camaron-AI)** — shrimp-outbreak prediction combining deep learning and reinforcement learning, with ETL pipeline, FastAPI, and operational dashboard.
 - **[Riesgo Sísmico Ecuador](https://github.com/jordanvt18/riesgo-sismico-ecuador)** — canton-level seismic hazard × exposure index and aftershock-rate forecasting (Omori–Utsu).
 - **[Bancos y Cooperativas Ecuador](https://github.com/jordanvt18/bancos-cooperativas-ecuador)** — financial-safety comparator for Ecuadorian banks and credit unions.
 - **[Índice de Transparencia Municipal](https://github.com/jordanvt18/transparency-index-ecuador)** — municipal transparency comparator: public procurement, accountability, asset declarations.
@@ -47,4 +47,4 @@ Type hints, Google-style docstrings, pytest, pre-commit and reproducible structu
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/jordanvillontorres/) · [Portfolio](https://jordanvillont.github.io/)
+[LinkedIn](https://www.linkedin.com/in/jordanvillontorres/) · [Portfolio](https://jordanvt18.github.io/jordanvillont.github.io/)
