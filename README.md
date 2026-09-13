@@ -1,6 +1,6 @@
 <div align="center">
 
-# Jordan Villón
+# Jordan V
 
 ### Head · Lead · Principal Data Science
 
@@ -14,7 +14,7 @@ Causal inference · Credit risk · Forecasting · Geospatial ML · Applied AI/LL
 
 ---
 
-## Executive profile
+## About me
 
 I design and lead end-to-end data science systems that convert uncertainty into measurable business decisions across Banking, FMCG, Retail, Agriculture, and the Public Sector in LatAm.
 
