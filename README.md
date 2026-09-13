@@ -1,50 +1,57 @@
-# Jordan Villon
+<div align="center">
 
-**Data & AI** — Guayaquil, Ecuador
+# Jordan Villón
 
-I design and build statistical and machine-learning systems for high-stakes decisions: causal inference for investment decisions, credit-risk modeling, demand forecasting, and end-to-end ML product engineering.
+### Head · Lead · Principal Data Science
 
-Sectors: Banking · FMCG · Retail · Agriculture · Public Sector (Ecuador & LatAm)
+**Data & AI leadership for high-stakes decisions**  
+Causal inference · Credit risk · Forecasting · Geospatial ML · Applied AI/LLM evaluation
 
-[LinkedIn](https://www.linkedin.com/in/jordanvillontorres/) · [Portfolio](https://jordanvt18.github.io/jordanvillont.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jordan%20Vill%C3%B3n-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jordanvillontorres/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-111111?logo=googlechrome&logoColor=white)](https://jordanvt18.github.io/jordanvillont.github.io/)
 
-## What I do
+</div>
 
-- **Decision intelligence** — causal inference and econometrics that quantify impact before capital is committed.
-- **Credit & financial risk** — models and comparators that support lending and financial-entity analysis.
-- **Forecasting & monitoring** — demand, crime and reservoir-level pipelines.
-- **Geospatial machine learning** — urban valuation, seismic risk and environmental monitoring.
-- **Applied AI & LLM evaluation** — LLM agent evaluation and rigorous, measurable quality standards.
+---
 
-## Selected systems
+## Executive profile
 
-| System | What it does |
+I design and lead end-to-end data science systems that convert uncertainty into measurable business decisions across Banking, FMCG, Retail, Agriculture, and the Public Sector in LatAm.
+
+From strategy to production, I focus on statistical rigor, delivery speed, and decision impact.
+
+## Highlights
+
+- Lead cross-functional Data & AI initiatives from hypothesis design to production deployment.
+- Build causal and predictive systems for investment, risk, and operational planning.
+- Combine econometrics, ML, and product engineering to deliver executive-grade decision intelligence.
+
+## Focus areas
+
+| Area | Leadership impact |
 |---|---|
-| **[Radar de Valorización Urbana](https://github.com/jordanvt18/radar-valorizacion-urbana)** | Real-estate appreciation prediction for Quito & Guayaquil — geospatial ETL, multimodal ML, FastAPI. |
-| **[Commercial Causal Evals](https://github.com/jordanvt18/commercial-causal-evals)** | Evaluation harness for an LLM agent grounded in causal inference (sharp regression discontinuity): golden dataset, fidelity & honesty metrics. |
-| **[Banana Disease Detection](https://github.com/jordanvt18/banana-disease-detection)** | Deep learning (PyTorch, ResNet18 transfer learning, OpenCV) for plant-disease detection — agriculture CV. |
-| **[Ecuador Crime Analysis](https://github.com/jordanvt18/ecuador-crime-analysis)** | Spatial analytics, ARIMA forecasting and composite indices on crime data (2018–2026), with an interactive dashboard. |
+| **Causal Inference** | Decision frameworks that quantify impact before capital is committed. |
+| **Credit Risk** | Lending and financial-risk models with transparent comparative analysis. |
+| **Forecasting** | Demand and risk time-series pipelines for proactive planning. |
+| **Geospatial ML** | Spatial intelligence for valuation, hazard, and monitoring systems. |
+| **Applied AI / LLM Evaluation** | Evaluation harnesses with measurable fidelity, reliability, and honesty metrics. |
 
-## Applied research & public-interest data
+## Selected work
 
-- **[Bioseguridad Camarón AI](https://github.com/jordanvt18/bioseguridad-camaron-AI)** — shrimp-outbreak prediction combining deep learning and reinforcement learning, with ETL pipeline, FastAPI, and operational dashboard.
-- **[Riesgo Sísmico Ecuador](https://github.com/jordanvt18/riesgo-sismico-ecuador)** — canton-level seismic hazard × exposure index and aftershock-rate forecasting (Omori–Utsu).
-- **[Bancos y Cooperativas Ecuador](https://github.com/jordanvt18/bancos-cooperativas-ecuador)** — financial-safety comparator for Ecuadorian banks and credit unions.
-- **[Índice de Transparencia Municipal](https://github.com/jordanvt18/transparency-index-ecuador)** — municipal transparency comparator: public procurement, accountability, asset declarations.
-- **[Monitoreo de Embalses CELEC SUR](https://github.com/jordanvt18/cotas-embalses-ecuador)** — independent monitoring of reservoir levels against official reports (CRISP-DM).
-
-## Engineering practice
-
-Type hints, Google-style docstrings, pytest, pre-commit and reproducible structure are the baseline I hold every project to — codified in [ml-system-design-template](https://github.com/jordanvt18/ml-system-design-template).
+| Project | What it delivers |
+|---|---|
+| **[Radar de Valorización Urbana](https://github.com/jordanvt18/radar-valorizacion-urbana)** | Geospatial valuation intelligence for Quito & Guayaquil with multimodal ML + FastAPI delivery. |
+| **[Commercial Causal Evals](https://github.com/jordanvt18/commercial-causal-evals)** | LLM-agent evaluation grounded in causal inference with golden datasets and strict quality metrics. |
+| **[Banana Disease Detection](https://github.com/jordanvt18/banana-disease-detection)** | Production-oriented computer vision for agriculture disease detection using PyTorch and OpenCV. |
+| **[Ecuador Crime Analysis](https://github.com/jordanvt18/ecuador-crime-analysis)** | Spatial analytics and forecasting system with interactive decision dashboards. |
+| **[Bioseguridad Camarón AI](https://github.com/jordanvt18/bioseguridad-camaron-AI)** | Early-warning modeling for aquaculture outbreaks with ETL, deep learning, and reinforcement learning. |
 
 ## Stack
 
-**Languages & data:** Python · R · SQL · PySpark · Databricks
+**Languages & Data:** Python · R · SQL · PySpark · Databricks  
+**ML & Methods:** PyTorch · Scikit-learn · Causal Inference · Time Series · Spatial Analytics · Credit Risk  
+**Delivery:** FastAPI · AWS · Power BI · Tableau
 
-**ML & methods:** PyTorch · Scikit-Learn · Causal inference · Time series · Spatial analysis · Credit risk modeling
-
-**Platform & delivery:** FastAPI · AWS · Power BI · Tableau
-
-## Contact
+## Connect
 
 [LinkedIn](https://www.linkedin.com/in/jordanvillontorres/) · [Portfolio](https://jordanvt18.github.io/jordanvillont.github.io/)
